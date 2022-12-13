@@ -1,0 +1,96 @@
+/* 
+100	Thin (Hairline)
+200	Extra Light (Ultra Light)
+300	Light
+400	Normal (Regular)
+500	Medium
+600	Semi Bold (Demi Bold)
+700	Bold
+800	Extra Bold (Ultra Bold)
+900	Black (Heavy) 
+*/
+
+/* GEOMERIA */
+
+@font-face {
+	font-family: 'Geometria';  
+	src: url('../fonts/Geometria/Geometria-Light.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 300;
+} 
+
+@font-face {
+	font-family: 'Geometria';  
+	src: url('../fonts/Geometria/Geometria.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 400;
+} 
+
+@font-face {
+	font-family: 'Geometria';  
+	src: url('../fonts/Geometria/Geometria.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 500;
+} 
+
+@font-face {
+	font-family: 'Geometria';  
+	src: url('../fonts/Geometria/Geometria-Bold.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 700;
+} 
+
+
+/* PLAYFAIR DISPLAY */
+
+@font-face {
+	font-family: 'Playfair';  
+	src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 400;
+} 
+
+@font-face {
+	font-family: 'Playfair';  
+	src: url('../fonts/PlayfairDisplay-MediumItalic.ttf') format('truetype'); 
+	font-style: italic; 
+	font-weight: 500;
+} 
+
+@font-face {
+	font-family: 'Playfair';  
+	src: url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 900;
+} 
+
+
+/* PLAYFAIR DISPLAY */
+
+@font-face {
+	font-family: 'Gotham';  
+	src: url('../fonts/Gotham Pro-regular.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 400;
+} 
+
+@font-face {
+	font-family: 'Gotham';  
+	src: url('../fonts/gotham_light.ttf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 300;
+} 
+
+@font-face {
+	font-family: 'Gotham';  
+	src: url('../fonts/gotham_medium.otf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 400;
+} 
+
+@font-face {
+	font-family: 'Gotham';  
+	src: url('../fonts/GOTHAMCOND_BOOK.otf') format('truetype'); 
+	font-style: normal; 
+	font-weight: 400;
+} 

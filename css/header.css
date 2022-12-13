@@ -1,0 +1,253 @@
+/* header */
+
+.header {
+	padding-top: 57px;
+	/* padding-bottoM: 48px; */
+}
+
+.mobile-menu {
+    display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    position: fixed;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+	z-index: 20;
+    overflow: auto;
+    height: 100vh;
+	width: 100%;
+	max-width: 320px;
+	margin-right: 100%;
+	padding: 19px 16px 20px 16px;
+    background: #010202;
+    transition: transform .4s linear;
+	box-sizing: border-box;
+	max-height: 544px;
+}
+
+.mobile-menu-logo {
+	max-width: 133px;
+	margin-bottom: 18px;
+}
+
+.mobile-menu-decor {
+	width: 100%;
+	height: 1px;
+	background: #FFFFFF;
+	opacity: .65;
+	margin-bottom: 32px;
+}
+
+.sideform-close {
+	width: 100%;
+    max-width: 16px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.nav__link-mob {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-bottom: 33px;
+}
+
+.header-burger-mobile {
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 100%;
+	max-width: 17px;
+	display: none;
+}
+
+.open-side {
+    transform: translate3d(100%, 0px, 0px);
+}
+
+.header__name {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 125%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #000000;
+	z-index: 2;
+	margin-bottom: 14px;
+	text-transform: uppercase;
+}
+
+.header__name-r {
+	font-family: 'Playfair';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 125%;
+	z-index: 2;
+	color: #0C0B0B;
+}
+
+
+.header-content {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+
+.header-content-wrp {
+	box-sizing: border-box;
+}
+
+.nav-wrp {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	overflow-x: auto;
+	position: relative;
+}
+
+.nav-linear-mobile {
+	display: none;
+}
+
+.nav {
+	display: flex;
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+
+.nav__link {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.nav__link:hover {
+	/* background: #000000; */
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+
+.hero__decor-line {
+	height: 1px;
+	background: #000000;
+	width: 100%;
+}
+
+@media (max-width: 1440px) { 
+	.nav__link {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 1100px) { 
+	.header {
+		padding-top: 30px;
+	}
+	.nav__link {
+		font-size: 12px;
+	}
+	.header__name {
+		font-size: 40px;
+	}
+}
+
+
+@media (max-width: 991px) { 
+	.nav__link {
+		font-size: 11px;
+		margin-right: 16px;
+    	margin-left: 16px;
+	}
+
+	.nav-wrp {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		overflow-x: auto;
+	}
+
+	.nav-linear-mobile {
+		/* display: block; */
+		position: absolute;
+		right: 0;
+		bottom: 1px;
+		width: 120px;
+		height: 34px;
+		background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%);
+	}
+}
+
+@media (max-width: 767px) { 
+	.header__name {
+		font-size: 32px;
+	}
+}
+	
+@media (max-width: 622px) { 
+	.header-burger-mobile {
+		display: block;
+	}
+	.nav-wrp {
+		display: none;
+	}
+	.mobile-menu {
+		display: flex;
+	}
+
+	.header {
+		padding-top: 20px;
+	}
+	.header__name {
+		font-size: 24px;
+	}
+	.nav {
+		margin-top: 5px;
+    	margin-bottom: 4px;
+	}
+	.nav__link:first-child {
+		margin-left: 0px;
+	}
+	.nav__link {
+		font-size: 10px;
+		line-height: 1.2em;
+		margin-right: 9px;
+    	margin-left: 9px;
+	}
+	.nav-linear-mobile {
+		width: 60px;
+		background: linear-gradient(90deg, rgba(255,255,255,0) 00%, rgba(255,255,255,1) 74%);
+	}
+
+}

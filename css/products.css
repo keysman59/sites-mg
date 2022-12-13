@@ -1,0 +1,434 @@
+/* hero */
+
+.hero {
+	height: 100%;
+	position: relative;
+}
+
+.hero-content-wrp {
+	height: 100%;
+	position: relative;
+	height: calc(100% - 57px);
+	box-sizing: border-box;
+	padding-bottom: 102px;
+}
+
+.hero-content {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: 800px;
+	margin-top: 183px;
+}
+
+.hero-content-2 {
+	display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: 860px;
+    margin-top: 178px;
+}
+
+.hero-bg {
+	position: absolute;
+    bottom: 70px;
+	width: calc(100vw - 32px);
+    max-width: 1440px;
+    left: 0;
+    z-index: 4;
+}
+
+.hero__wrp-name {
+	display: flex;
+}
+
+.hero__main-description {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	display: flex;
+	align-items: center;
+	color: #000000;
+    max-width: 740px;
+    margin-right: auto;
+	position: absolute;
+    top: -120px;
+	left: 0;
+}
+
+.hero-black-plus {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 8px;
+}
+
+.hero-mask {
+	position: absolute;
+	right: 0;
+	top: 18px;
+}
+
+.hero-mask-inner {
+	position: relative;
+}
+
+.hero-water-inner {
+	position: relative;
+}
+
+.hero-mask-1 {
+	max-width: 173px;
+}
+.hero-mask-2 {
+	max-width: 144px;
+}
+.hero-mask-3 {
+	margin-top: -4px;
+}
+
+.hero-rack {
+	position: absolute;
+	left: 0;
+	top: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-rack-inner-metrogil {
+		
+}
+
+.hero-rack-1 {
+	max-width: 604px;
+	width: 41vw;
+}
+.hero-rack-2 {
+	max-width: 136px;
+	width: 9.5vw;
+}
+.hero-rack-3 {
+    margin-bottom: -131px;
+    max-width: 81px;
+    width: 6vw;
+    z-index: 6;
+    position: relative;
+    margin-left: 30px;
+}
+.hero-rack-4 {
+	max-width: 94px;
+	margin-bottom: -319px;
+	margin-left: 100px;
+	width: 7vw;
+}
+.hero-rack-5 {
+	max-width: 103px;
+    margin-left: 40px;
+    margin-bottom: -5px;
+	width: 8vw;
+}
+
+.hero-woman {
+	margin-left: 170px;
+	z-index: 4;
+	max-width: 506px;
+	width: 35vw;
+}
+
+.hero-woman-2 {
+	margin-right: 170px;
+	z-index: 4;
+	max-width: 506px;
+	width: 35vw;
+}
+
+.hero-tubes {
+	position: absolute;
+	bottom: 27px;
+	right: 0;
+	display: flex;
+	align-items: flex-end;
+}
+
+.hero-tubes-1 {
+	max-width: 242px;
+	width: 17vw;
+}
+.hero-tubes-2 {
+	max-width: 170px;
+	width: 12vw;
+}
+.hero-tubes-3 {
+	max-width: 105px;
+	width: 8vw;
+}
+.hero-tubes-4-wrp {
+	position: relative;
+}
+.hero-tubes-4 {
+	max-width: 131px;
+	width: 10vw;
+}
+
+
+.hero-tubes-metrogil {
+	position: absolute;
+	bottom: 27px;
+	left: 460px;
+}
+
+.hero-tubes-mob-metrogil {
+	display: none;
+}
+
+.hero-tubes-5 {
+	max-width: 279px;
+	width: 19vw;
+}
+.hero-tubes-6 {
+	max-width: 122px;
+    width: 8.2vw;
+}
+.hero-tubes-7 {
+	max-width: 43px;
+	width: 3vw;
+}
+.hero-tubes-8 {
+	max-width: 39px;
+	width: 3vw;
+}
+.hero-tubes-9 {
+	max-width: 123px;
+    width: 9vw;
+	margin-left: 23px;
+}
+
+.hero-water {
+    position: absolute;
+    bottom: 27px;
+	left: 290px;
+}
+
+.hero-water-1 {
+	max-width: 127px;
+	width: 9vw;
+}
+.hero-water-2 {
+	max-width: 125px;
+	width: 9vw;
+}
+.hero-water-table-1 {
+	display: none;
+}
+
+.hero-water-metrogil {
+    position: absolute;
+    bottom: 27px;
+	left: 5px;
+}
+
+.hero-water-3 {
+	max-width: 141px;
+	width: 10vw;
+}
+.hero-water-4 {
+	max-width: 67px;
+	width: 5vw;
+}
+
+.hero-plant {
+	position: absolute;
+	bottom: 27px;
+	left: 0;
+	max-width: 386px;
+	width: 24.5vw;
+}
+.hero-plant-2 {
+	position: absolute;
+	bottom: 27px;
+	right: 0;
+	max-width: 217px;
+    width: 15.5vw;
+}
+
+.hero-table {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.hero-desc {
+	transition: all .4s linear;
+	display: block;
+	padding: 24px 30px 30px 30px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	width: 100%;
+	max-width: 226px;
+	min-height: 226px;
+    height: auto;
+    filter: drop-shadow(7px 7px 25px rgba(0, 0, 0, 0.5));
+}
+
+.hero-desc-1 {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-2 {
+    position: absolute;
+    top: 51%;
+    left: 70%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-3 {
+    position: absolute;
+    top: 51%;
+    right: 2%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-4 {
+    position: absolute;
+    top: 51%;
+    left: 12%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-5 {
+    position: absolute;
+    top: 51%;
+    left: 22%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-6 {
+    position: absolute;
+    top: 25%;
+    right: 22%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-7 {
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-8 {
+    position: absolute;
+	top: 23%;
+    right: 35%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-9 {
+    position: absolute;
+    bottom: 19%;
+    right: 5%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-10 {
+    position: absolute;
+    bottom: 19%;
+    left: 13%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-11 {
+    position: absolute;
+    bottom: 17%;
+	left: 18%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-12 {
+    position: absolute;
+    bottom: 18%;
+    right: 7%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc-13 {
+    position: absolute;
+    bottom: 18%;
+    right: 9%;
+    z-index: 5;
+    background: white;
+    border-radius: 14px;
+}
+
+.hero-desc__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 130%;
+	color: #000000;
+}
+
+.hero-desc__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	
+	color: #000000;
+}
+
+/* animation css */
+
+.hidden {
+	display: none;
+}
+
+.visuallyhidden {
+	opacity: 0;
+}
+
+/* animation css end */
+
