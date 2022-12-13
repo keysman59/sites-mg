@@ -94,6 +94,96 @@
     margin-right: auto;
 }
 
+/* PLATO */
+
+.plato {
+
+}
+
+.plato-content-wrp {
+
+}
+
+.plato-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.plato-rs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    width: 49.5%;
+	
+}
+
+.plato-ls {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    width: 49.5%;
+}
+
+.plato-ls-1 {
+	width: 49%;
+}
+
+.plato-ls-2 {
+	width: 49%;
+}
+
+.plato-rs-1 {
+	width: 49%;
+}
+
+.plato-rs-2 {
+	width: 49%;
+}
+
+
+
+.plato-item {
+	margin-bottom: 32px;
+}
+
+.plato-item:hover { 
+	/* text-decoration: underline; */
+	cursor: pointer;
+}
+
+.plato__subtitle {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 6px;
+	margin-top: 28px;
+}
+
+.plato__title {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.plato__img {
+	width: 100%;
+}
+
+.plato__img-1 {
+
+}
+
 /* SD */
 
 .sd {
