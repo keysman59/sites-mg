@@ -467,6 +467,7 @@
 
 .reference-content {
 	display: flex;
+	justify-content: space-between;
 }
 
 .reference__text {
@@ -478,12 +479,20 @@
 	color: #7C7C7C;
 }
 
+.reference-vertical-line {
+	height: 100%;
+	width: 1px;
+	background: #C4C4C4;
+	margin-right: 30px;
+}
+
 .reference-left {
-	width: 50%;
+	width: 45%;
+	margin-right: 2%;
 }
 
 .reference-right {
-	width: 50%;
+	width: 47%;
 }
 
 
