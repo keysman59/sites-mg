@@ -110,7 +110,7 @@
 }
 
 .articles-content-wrp {
-
+	padding-bottom: 179px;
 }
 
 .articles-content {
@@ -501,7 +501,7 @@
 .expert {
 	display: flex;
 	margin-top: 181px;
-	margin-bottom: 149px;
+	/* margin-bottom: 149px; */
 }
 
 .expert-text-block {
@@ -559,6 +559,7 @@
 	position: relative;
 	flex-direction: column;
 	padding-left: 30px;
+	width: 100%;
 }
 
 .reference-sides {
@@ -596,13 +597,13 @@
 }
 
 .reference-left {
-    width: 48%;
+    width: 47%;
 	padding-right: 20px;
     padding-left: 20px;
 }
 
 .reference-right {
-    width: 48%;
+    width: 47%;
 }
 
 /* OTHER */
