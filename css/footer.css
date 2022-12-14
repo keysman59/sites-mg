@@ -102,11 +102,23 @@
 	.footer-logo__img--metrogil {
 		max-width: 102px;
 	}
+	.footer-logo__img--gp {
+		max-width: 50px;
+	}
 	.footer-right__text {
 		font-size: 11px;
 	}
 	.footer-info {
 		flex-direction: row-reverse;
+	}
+	.footer-right__text--span {
+		text-decoration: underline;
+	}
+	.footer-right__text--span-1 {
+		opacity: .7;
+	}
+	.footer-right__text--span-2 {
+		text-decoration: underline;
 	}
 }
 
@@ -115,6 +127,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: start;
+		font-size: 6.8vw;
 	}
 	.footer-logo__img {
 		max-width: 42px;
@@ -122,8 +135,12 @@
 	.footer-logo__img--metrogil {
 		max-width: 88px;
 	}
+	.footer-logo__img--gp {
+		max-width: 50px;
+	}
 	.footer-right__text {
 		font-size: 10px;
+		max-width: 194px;
 	}
 	.footer-right {
 		margin-right: 30px;

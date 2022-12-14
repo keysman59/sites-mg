@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/products.css">
+<link rel="stylesheet" href="css/products-mobile.css">
 <link rel="stylesheet" href="css/public.css">
 <!-- <link rel="shortcut icon" href="images/public/favicon.png" type="image/x-icon"> -->
 
@@ -17,23 +18,38 @@
 
 <div class="wrapper">
 
+	<div class="mobile-menu" id="mobile-menu">
+		<img class="mobile-menu-logo" src="images/logo-mobile-menu.png" alt="">
+		<div class="mobile-menu-decor"></div>
+		<a class="nav__link-mob" href="#">ГЛАВНАЯ</a>
+		<a class="nav__link-mob" href="#">Метрогил гель</a>
+		<a class="nav__link-mob" href="#">Метрогил А</a>
+		<a class="nav__link-mob" href="#">Где купить</a>
+		<a class="nav__link-mob" href="#">FAQ </a>
+		<a class="nav__link-mob" href="#">Блог </a>
+		<a class="nav__link-mob" href="#">Контакты </a>
+		<img id="mobile-menu-btn-close" class="sideform-close" src="images/close-mobile-menu.png" alt="">
+	</div>
 	
 	<div class="header">
 		<div class="container-main header-content-wrp">
 			<div class="header-content">
 				<h2 class="header__name">Метрогил <span class="header__name-r">®</span> </h2>
+				<img class="header-burger-mobile" id="mobile-menu-btn" src="images/burger-mobile-menu.svg" alt="">
 				<div class="hero__decor-line"></div>
-				<div class="nav">
-					<a href="" class="nav__link">главная</a>
-					<a href="" class="nav__link">Метрогил гель</a>
-					<a href="" class="nav__link">Метрогил А</a>
-					<a href="" class="nav__link">Где купить</a>
-					<a href="" class="nav__link">FAQ</a>
-					<a href="" class="nav__link">Блог</a>
-					<a href="" class="nav__link">Контакты</a>
+				<div class="nav-wrp">
+					<div class="nav">
+						<a href="" class="nav__link">главная</a>
+						<a href="" class="nav__link">Метрогил&nbsp;гель</a>
+						<a href="" class="nav__link">Метрогил&nbsp;А</a>
+						<a href="" class="nav__link">Где&nbsp;купить</a>
+						<a href="" class="nav__link">FAQ</a>
+						<a href="" class="nav__link">Блог</a>
+						<a href="" class="nav__link">Контакты</a>
+					</div>
 				</div>
+				<div class="nav-linear-mobile"></div>
 				<div class="hero__decor-line"></div>
-
 			</div>
 		</div>
 	</div>
@@ -44,7 +60,7 @@
 				<h1 class="hero__caption">Метрогил А®  </h1>
 				<div class="hero__description">
 					<div class="hero__description-line"></div>
-					Гель для наружного применения 1%  для лечения угревой сыпи и комедонов
+					Гель для наружного применения 1%  для&nbsp;лечения угревой&nbsp;сыпи и&nbsp;комедонов.
 				</div>
 				<img class="hero-view__tube" src="images/main-pages/hero-tube.svg" alt="">
 			</div>
@@ -313,17 +329,19 @@
 			<div class="container-main footer-content">
 				<div class="footer-info">
 					<div class="footer-logo footer-logo--main-page">
-						<img class="footer-logo__img" src="images/footer/logo-footer.png" alt="">
+						<img class="footer-logo__img footer-logo__img--gp" src="images/footer/logo-footer.png" alt="">
 					</div>
 					<div class="footer-right">
 						<div class="footer-logo">
 							<img class="footer-logo__img footer-logo__img--metrogil" src="images/footer/metrogil-text.png" alt="">
 						</div>
 						<div class="footer-right__text">
-							© Metrogil 2019. Все права защищены.<br>
-							© 2019 ООО "Юник Фармасьютикал Лабораториз"<br>
-							Нелицензионное использование материалов сайта запрещено.<br>
-							Политика в отношении обработки персональных данных<br>
+							<span class="footer-right__text--span-1"> 
+								© Metrogil 2019. Все права защищены.<br>
+								© 2019 ООО "Юник Фармасьютикал Лабораториз"<br>
+								Нелицензионное использование материалов сайта запрещено.<br>
+							</span>
+							<span class="footer-right__text--span-2">Политика в отношении обработки персональных данных</span> <br>
 						</div>
 					</div>
 				</div>
@@ -337,6 +355,6 @@
 
 </div>
 
-
+<script src="scripts/script-mm.js"></script>
 </body>
 </html>

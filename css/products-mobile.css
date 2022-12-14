@@ -1,0 +1,116 @@
+@media (max-width: 1440px) { 
+	.hero__caption {
+		font-size: 9.3vw;
+	}
+	.hero__description {
+		font-size: 28px;
+	}
+}
+@media (max-width: 1100px) { 
+	.hero {
+		height: 600px;
+	}
+	.hero__description-line {
+		margin-right: 24px;
+	}
+	.hero__description {
+		font-size: 25px;
+		max-width: 449px;
+	}
+	.hero-bg {
+		background-position: 60%;
+	}
+	.hero-view__tube {
+		margin-top: 46px;
+		margin-left: 30px;
+		max-width: 360px;
+	}
+	.header__name-r {
+		margin-top: 7px;
+	}
+}
+
+@media (max-width: 991px) { 
+
+}
+
+@media (max-width: 767px) { 
+	.hero {
+		height: 500px;
+	}
+	.hero__description {
+		font-size: 21px;
+		max-width: 384px;
+	}
+	.hero-view__tube {
+		margin-top: 10px;
+		margin-left: 10px;
+		max-width: 300px;
+	}
+	.header__name-r {
+		margin-top: 4px;
+	}
+}
+
+@media (max-width: 622px) { 
+	.hero {
+		height: 452px;
+		margin-top: 0;
+	}
+	.hero__caption {
+		font-size: 40px;
+		margin-top: 26px;
+		margin-bottom: 20px;
+	}
+	.hero__description-line {
+		margin-right: 16px;
+		height: 108px;
+	}
+	.header__name-r {
+		font-size: 14px;
+	}
+	.hero-bg {
+		background: url('../images/products/hero-woman-metrogil-mobile.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+	}
+	.hero__decor-line {
+		background: rgba(0, 0, 0, .4);
+	}
+	.header-burger-mobile {
+		max-width: 22px;
+		top: 5px;
+	}
+	.hero__description {
+		max-width: 200px;
+		font-family: 'Playfair';
+		font-style: italic;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 120%;
+		letter-spacing: 0.02em;
+		color: #000000;
+	}
+	.hero-view__tube {
+		margin-top: 57px;
+		margin-left: 14px;
+		max-width: 150px;
+	}
+
+}
+
+@media (max-width: 479px) { 
+	.hero {
+		height: 367px;
+	}
+	.hero-view__tube {
+		margin-top: 32px;
+		margin-left: 5px;
+		max-width: 130px;
+	}
+}
+
+@media (max-width: 367px) { 
+
+}
