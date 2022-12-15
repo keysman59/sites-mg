@@ -5,6 +5,10 @@
 	.hero__description {
 		font-size: 28px;
 	}
+	.hero-view__girl {
+		max-width: 700px;
+		width: 46vw;
+	}
 	.rec-info__caption {
 		font-size: 3.5vw;
 		max-width: 47vw;
@@ -30,6 +34,56 @@
 	}
 	.why-item__text {
 		font-size: 18px;
+	}
+	.application-content-wrp {
+		padding-top: 140px;
+	}
+	.application__text {
+		font-size: 18px;
+	}
+	.application-item__text {
+		font-size: 16px;
+	}
+	.application-item__img {
+		margin-right: 30px;
+	}
+	.application-number {
+		font-size: 180px;
+	}
+	.application-item__img {
+		max-width: 267px;
+		width: 20vw;
+	}
+	.where-buy-item__img {
+		width: 100%;
+		max-width: 220px;
+	}
+	.question-item {
+		font-size: 18px;
+	}
+	.question-content-wrp {
+		padding-bottom: 100px;
+	}
+	.hero-view__tube {
+		max-width: 644px;
+		width: 50vw;
+	}
+	.hero-content-wrp {
+		height: auto;
+	}
+	.rec-content-wrp {
+		padding-top: 110px;
+		padding-bottom: 140px;
+	}
+	.rec-info {
+		padding-left: 552px;
+	}
+	.rec-view__girl {
+		max-width: 468px;
+		position: absolute;
+		left: 0;
+		top: 20px;
+		width: 32vw;
 	}
 }
 @media (max-width: 1100px) { 
@@ -75,6 +129,35 @@
 		margin-left: 0px;
 		text-align: center;
 	}
+	.application-number {
+		font-size: 140px;
+		bottom: 35px;
+    	left: -12px;
+	}
+	.application-item {
+		width: 48%;
+	}
+	.application-item--last {
+		width: 100%;
+	}
+	.where-buy-item__img {
+		max-width: 180px;
+	}
+	.wb-items-arrows {
+		top: 28%;
+	}
+	.question-item {
+		width: 20%;
+	}
+	.reference-vertical-line {
+		display: none;
+	}
+	.reference-left {
+		width: 47%;
+	}
+	.rec-info {
+		padding-left: 42vw;
+	}
 
 }
 
@@ -115,6 +198,23 @@
 	.why-use {
 		display: none;
 	}
+	.question-item {
+		padding: 27px 28px 31px 25px;
+	}
+	.question-item {
+		width: 24%;
+	}
+	.hero-view__girl {
+		display: none;
+	}
+	.hero-view__girl-mob {
+		display: block;
+		max-width: 290px;
+		width: 100%;
+		position: absolute;
+		top: -48px;
+		right: 16px;
+	}
 }
 
 @media (max-width: 767px) { 
@@ -138,6 +238,27 @@
 	}
 	.adv-btns {
 		width: 100%;
+	}
+	.application-content-wrp {
+		padding-top: 60px;
+	}
+	.application__text {
+		font-size: 16px;
+		margin-top: 22px;
+	}
+	.application-item__text {
+		font-size: 14px;
+	}
+	.question-item {
+		width: 48%;
+		box-sizing: border-box;
+		padding: 27px 50px 31px 25px;
+	}
+	.question-content-wrp {
+		padding-bottom: 50px;
+	}
+	.reference-content-wrp {
+		padding-bottom: 90px;
 	}
 }
 
@@ -255,6 +376,131 @@
 		align-items: center;
 		flex-direction: row;
 	}
+	.why__caption {
+		display: none;
+	}
+	.why-content {
+		padding-top: 29px;
+		padding-bottom: 36px;
+	}
+	.why-item__text {
+		margin-left: 24px;
+		text-align: start;
+		margin-top: 0px;
+	}
+	.why-use {
+		margin-left: 0;
+	}
+	.adv-use {
+		justify-content: start;
+	}
+	.application-items-nav {
+		overflow-x: auto;
+		width: 95vw;
+	}
+	.application-items {
+		flex-wrap: nowrap;
+	}
+	.application-item {
+		flex-direction: column;
+		width: 100%;
+		margin-right: 30px;
+		width: 220px;
+		flex: 0 0 auto;
+	}
+	.application-item__img {
+		margin-right: 0px;
+		max-width: 170px;
+		width: 100%;
+	}
+	.application-items {
+		padding-left: 8px;
+	}
+	.application {
+		background: #F3F3F3;
+	}
+	.where-buy-slider {
+		overflow-x: auto;
+		width: 95vw;
+	}
+	.where-buy-item__img {
+		max-width: 100%;
+		width: 200px;
+	}
+	.wb-items-arrows {
+		display: none;
+	}
+	.where-buy-items {
+		justify-content: flex-start;
+	}
+	.where-buy-item {
+		flex: 0 0 auto;
+	}
+	.where-buy-slider {
+		margin-top: 28px;
+	}
+	.where-buy-content-wrp {
+		padding-top: 94px;
+		padding-bottom: 46px;
+	}
+	.question-item {
+		width: 100%;
+	}
+	.question-items {
+		margin-top: 53px;
+	}
+	.reference-content {
+		flex-direction: column;
+	}
+	.reference-left {
+		width: 100%;
+		margin-bottom: 24px;
+	}
+	.reference-right {
+		width: 100%;
+	}
+	.hero {
+		margin-top: 20px;
+	}
+	.hero-view__girl-mob {
+		top: -20px;
+		max-width: 213px;
+	}
+	.hero__caption {
+	    margin-bottom: 10px;
+	}
+	.hero__caption--bot {
+		font-family: 'Playfair';
+		font-style: italic;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 115%;
+		letter-spacing: 0.02em;
+		color: #000000;
+		margin-top: 0px;
+	}
+	.rec-info {
+		padding-left: 0px;
+	}
+	.rec-view__girl {
+		top: 354px;
+	}
+	.why-content {
+		padding-top: 450px;
+	}
+	.rec-view__girl {
+		display: none;
+	}
+	.rec-view__girl--mob {
+		display: block;
+		max-width: 343px;
+		width: 100%;
+		top: 396px;
+	}
+	.application__text {
+		max-width: 350px;
+	}
+
 }
 
 @media (max-width: 479px) { 
@@ -262,17 +508,17 @@
 		height: 367px;
 	}
 	.hero-view__tube {
-		margin-top: 32px;
-		margin-left: 25px;
-		max-width: 130px;
+		margin-top: 0px;
+		margin-left: 0px;
+		max-width: 210px;
+		bottom: 150px;
+		position: absolute;
+		z-index: 5;
 	}
 	.hero-view {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-	}
-	.hero__caption {
-		margin-bottom: -10px;
 	}
 	.hero-content-wrp {
 		padding-bottom: 14px;
@@ -343,6 +589,42 @@
 	.section-products__caption {
 		font-size: 20px;
 	}
+	.application-item__img {
+		margin-right: 0px;
+		max-width: 150px;
+		width: 100%;
+	}
+	.question-items {
+		margin-top: 23px;
+	}
+	.question-item {
+		border-left: none;
+		border-right: none;
+		margin-bottom: -2px;
+	}
+	.question-content-wrp {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.question__caption {
+		margin-left: 16px;
+	}
+	.reference-content-wrp {
+		padding-bottom: 52px;
+	}
+	.section__caption {
+		margin-left: 16px;
+	}
+	.hero-content-wrp {
+		height: 100%;
+	}
+	.hero__description {
+		max-width: 335px;
+	}
+	.hero__description-line {
+		height: 89px;
+	}
+
 
 }
 

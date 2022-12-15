@@ -67,6 +67,12 @@
 	position: absolute;
     top: 94px;
     right: 32px;
+	max-width: 700px;
+    width: 50vw;
+}
+
+.hero-view__girl-mob {
+	display: none;
 }
 
 .hero__wrp-name {
@@ -111,7 +117,7 @@
 }
 
 .adv-content-wrp {
-	padding-top: 187px;
+	padding-top: 64px;
 }
 
 .adv-check {	
@@ -211,6 +217,13 @@
 	position: absolute;
 	left: 0;
     top: 20px;
+}
+.rec-view__girl--mob {
+	max-width: 468px;
+	position: absolute;
+	left: 0;
+    top: 20px;
+	display: none;
 }
 
 .rec-row {
