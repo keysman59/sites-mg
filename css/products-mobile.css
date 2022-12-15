@@ -31,6 +31,25 @@
 	.why-item__text {
 		font-size: 18px;
 	}
+	.application-content-wrp {
+		padding-top: 140px;
+	}
+	.application__text {
+		font-size: 18px;
+	}
+	.application-item__text {
+		font-size: 16px;
+	}
+	.application-item__img {
+		margin-right: 30px;
+	}
+	.application-number {
+		font-size: 180px;
+	}
+	.application-item__img {
+		max-width: 267px;
+		width: 20vw;
+	}
 }
 @media (max-width: 1100px) { 
 	.hero {
@@ -74,6 +93,17 @@
 		margin-top: 16px;
 		margin-left: 0px;
 		text-align: center;
+	}
+	.application-number {
+		font-size: 140px;
+		bottom: 35px;
+    	left: -12px;
+	}
+	.application-item {
+		width: 48%;
+	}
+	.application-item--last {
+		width: 100%;
 	}
 
 }
@@ -138,6 +168,16 @@
 	}
 	.adv-btns {
 		width: 100%;
+	}
+	.application-content-wrp {
+		padding-top: 60px;
+	}
+	.application__text {
+		font-size: 16px;
+		margin-top: 22px;
+	}
+	.application-item__text {
+		font-size: 14px;
 	}
 }
 
