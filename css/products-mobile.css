@@ -310,6 +310,34 @@
 	.why-use {
 		margin-left: 0;
 	}
+	.adv-use {
+		justify-content: start;
+	}
+	.application-items-nav {
+		overflow-x: auto;
+		width: 95vw;
+	}
+	.application-items {
+		flex-wrap: nowrap;
+	}
+	.application-item {
+		flex-direction: column;
+		width: 100%;
+		margin-right: 30px;
+		width: 220px;
+		flex: 0 0 auto;
+	}
+	.application-item__img {
+		margin-right: 0px;
+		max-width: 170px;
+		width: 100%;
+	}
+	.application-items {
+		padding-left: 8px;
+	}
+	.application {
+		background: #F3F3F3;
+	}
 }
 
 @media (max-width: 479px) { 
@@ -398,6 +426,12 @@
 	.section-products__caption {
 		font-size: 20px;
 	}
+	.application-item__img {
+		margin-right: 0px;
+		max-width: 150px;
+		width: 100%;
+	}
+
 
 }
 
