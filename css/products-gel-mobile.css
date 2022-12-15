@@ -307,6 +307,9 @@
 		margin-left: 14px;
 		max-width: 150px;
 	}
+	.adv-content-wrp {
+		padding-top: 64px;
+	}
 	.adv-check-item {
 		width: 50%;
 	}
