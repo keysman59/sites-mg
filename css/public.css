@@ -88,8 +88,22 @@ html {
 
 @media (max-width: 767px) {
 	.btn {
-		font-size: 18px;
+		font-size: 17px;
 		padding: 22px 40px 24px 40px;
+		line-height: 100%;
+	}
+}
+@media (max-width: 622px) {
+	.btn {
+		font-size: 17px;
+		padding: 18px 40px 19px 40px;
+		line-height: 100%;
+	}
+}
+@media (max-width: 479px) {
+	.btn {
+		font-size: 15px;
+		padding: 16px 40px 16px 40px;
 		line-height: 100%;
 	}
 }

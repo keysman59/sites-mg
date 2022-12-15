@@ -25,6 +25,15 @@
 	height: 100%;
 }
 
+.section-products__caption {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	color: #000000;
+}
+
 .hero__caption {
 	font-family: 'Playfair';
 	font-style: normal;
@@ -121,6 +130,7 @@
 	width: 100%;
     max-width: 440px;
 	margin-bottom: 30px;
+	padding-right: 25px;
 }
 
 .adv-check-item__text {
@@ -494,5 +504,4 @@
 .reference-right {
 	width: 47%;
 }
-
 
