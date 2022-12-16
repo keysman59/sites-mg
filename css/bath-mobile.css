@@ -119,7 +119,67 @@
         height: 8px;
         background: url('../images/black-plus-mobile--8.png');
         background-repeat: no-repeat;
-      }
+    }
+    .hero-tubes-inner-6-wrp::before {
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 23px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
+    .hero-tubes-inner-7-wrp::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -6px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
+    .hero-tubes-inner-8-wrp::before {
+        content: "";
+        position: absolute;
+        top: 3px;
+        right: -6px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
+    .hero-tubes-inner-9-wrp::before {
+        content: "";
+        position: absolute;
+        top: -7px;
+        right: -13px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
+    .hero-tubes-inner-10-wrp::before {
+        content: "";
+        position: absolute;
+        top: -7px;
+        right: -13px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
+    .hero-tubes-inner-11-wrp::before {
+        content: "";
+        position: absolute;
+        top: -7px;
+        right: -8px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
     .hero-rack-5 {
         max-width: 54px;
         width: 100%;
@@ -164,7 +224,7 @@
         height: 30px;
         margin-left: 111px;
         margin-right: unset;
-        margin-top: 13px;
+        margin-top: 18px;
     }
     .hero-tubes-6, .hero-tubes-7, .hero-tubes-8 {
         display: none;
@@ -189,7 +249,8 @@
     .hero-tubes-10-mob {
         width: 100%;
         max-width: 40px;
-        margin-bottom: -64px;
+        margin-bottom: -58px;
+        z-index: 4;
     }
     .hero-tubes-11-mob {
         width: 100%;
@@ -203,7 +264,8 @@
         flex-direction: row-reverse;
     }
     .hero-tubes-inner-metrogil {
-	
+        display: flex;
+        align-items: flex-end;
     }
     .hero-tubes-mob-metrogil {
         display: flex;
@@ -215,7 +277,7 @@
     .hero-water-metrogil {
         left: unset;
         right: 0;
-        bottom: 5px;
+        bottom: 10px;
     }
     .hero-water {
         left: 0%;

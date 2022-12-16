@@ -269,6 +269,7 @@
     position: absolute;
     bottom: 27px;
 	left: 5px;
+	display: flex;
 }
 
 .hero-water-3 {
@@ -497,11 +498,37 @@
 	margin-bottom: 108px;
 }
 
-.hero-tubes-inner-wrp {
-
-}
-
 .hero-tubes-inner-5-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+.hero-tubes-inner-6-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+.hero-tubes-inner-7-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+.hero-tubes-inner-8-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+.hero-tubes-inner-9-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+.hero-tubes-inner-10-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+.hero-tubes-inner-11-wrp {
 	display: flex;
 	align-items: flex-end;
 	position: relative;
