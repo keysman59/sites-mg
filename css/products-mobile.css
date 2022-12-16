@@ -2,6 +2,9 @@
 	.hero__caption {
 		font-size: 9.3vw;
 	}
+	.hero__name-r {
+		font-size: 4.7vw;
+	}
 	.hero__description {
 		font-size: 28px;
 	}
@@ -526,6 +529,11 @@
 	}
 	.reference-content-wrp {
 		padding-bottom: 52px;
+	}
+	.hero__name-r {
+		font-size: 22px;
+		margin-left: -2px;
+    	margin-top: -1px;
 	}
 
 

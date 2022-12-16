@@ -30,7 +30,7 @@
 	font-family: 'Playfair';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 135px;
+	font-size: 125px;
 	line-height: 70%;
 	letter-spacing: 0.02em;
 	color: #000000;
@@ -39,16 +39,31 @@
 	z-index: 3;
 	position: relative;
 }
+.hero__name-r {
+	font-size: 65px;
+	position: absolute;
+	margin-left: -3px;
+}
+
+.hero__caption--bot {
+	font-style: italic;
+	text-align: end;
+	padding-right: 30px;
+	line-height: 40%;
+    margin-bottom: 57px;
+    margin-top: -20px;
+}
+
 
 .hero__description {
-	font-family: 'PlayfairDisplay-MediumItalic';
-	font-style: italic;
+	font-family: 'Geometria';
+	font-style: normal;
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 26px;
 	line-height: 120%;
 	letter-spacing: 0.02em;
 	color: #000000;
-	max-width: 595px;
+	max-width: 468px;
 	display: flex;
 }
 
@@ -304,6 +319,9 @@
 	justify-content: center;
 	flex: 0 0 auto;	
 }
+.why-item__circle img {
+	/* width: 80%; */
+}
 
 .why-item__text {
 	margin-left: 24px;
@@ -481,7 +499,8 @@
 	background-image: url('../images/main-pages/arrow-right.png');
 	background-repeat: no-repeat;
 	background-position: 92% 44%;
-	width: 22%;
+	max-width: 24%;
+    width: 50vw;
 	margin-bottom: 25px;
 	font-family: 'Geometria';
 	font-style: normal;
