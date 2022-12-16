@@ -76,10 +76,10 @@
 
 @font-face {
 	font-family: 'Gotham';  
-	src: url('../fonts/Gotham Pro-regular.ttf') format('truetype'); 
+	src: url('../fonts/Gotham-Medium.ttf') format('truetype'); 
 	font-style: normal; 
 	font-weight: 400;
-} 
+}  
 
 @font-face {
 	font-family: 'Gotham';  
@@ -90,7 +90,7 @@
 
 @font-face {
 	font-family: 'Gotham';  
-	src: url('../fonts/gotham_medium.otf') format('truetype'); 
+	src: url('../fonts/gotham_book.otf') format('truetype'); 
 	font-style: normal; 
 	font-weight: 400;
 } 

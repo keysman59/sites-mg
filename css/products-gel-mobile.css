@@ -105,9 +105,6 @@
 		margin-left: 30px;
 		max-width: 360px;
 	}
-	.header__name-r {
-		margin-top: 7px;
-	}
 	.adv-content {
 		flex-direction: column;
 		align-items: flex-end;
@@ -230,9 +227,6 @@
 		margin-left: 10px;
 		max-width: 300px;
 	}
-	.header__name-r {
-		margin-top: 4px;
-	}
 	.adv-use {
 		width: 100%;	
 	}
@@ -275,9 +269,6 @@
 	.hero__description-line {
 		margin-right: 16px;
 		height: 108px;
-	}
-	.header__name-r {
-		font-size: 14px;
 	}
 	.hero-bg {
 		background: url('../images/products/hero-woman-metrogil-mobile.png');

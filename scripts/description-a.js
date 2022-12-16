@@ -5,6 +5,8 @@ let el5 = document.querySelector('.hero-tubes-5'),
     el9 = document.querySelector('.hero-water-4'),
     el10 = document.querySelector('.hero-tubes-8'),
     el11 = document.querySelector('.hero-tubes-7'),
+    el7m = document.querySelector('.hero-tubes-7-mob'),
+    el8m = document.querySelector('.hero-tubes-8-mob'),
     desc7 = document.querySelector('.hero-desc-7'),
     desc8 = document.querySelector('.hero-desc-8'),
     desc9 = document.querySelector('.hero-desc-9'),
@@ -62,6 +64,21 @@ el11.addEventListener('mouseover', () => {
   }, 20)
 })
 
+el7m.addEventListener('mouseover', () => {
+  console.log('навели')
+  desc13.classList.remove('hidden')
+  setTimeout(()=> {
+    desc13.classList.remove('visuallyhidden')
+  }, 20)
+})
+
+el8m.addEventListener('mouseover', () => {
+  desc12.classList.remove('hidden')
+  setTimeout(()=> {
+    desc12.classList.remove('visuallyhidden')
+  }, 20)
+})
+
 el5.addEventListener('mouseout', () => {
   clearDescription()
 })
@@ -81,6 +98,12 @@ el10.addEventListener('mouseout', () => {
   clearDescription()
 })
 el11.addEventListener('mouseout', () => {
+  clearDescription()
+})
+el7m.addEventListener('mouseout', () => {
+  clearDescription()
+})
+el8m.addEventListener('mouseout', () => {
   clearDescription()
 })
 
