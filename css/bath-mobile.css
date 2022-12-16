@@ -38,22 +38,41 @@
     .hero-rack-inner-metrogil-gel {
 
     }
+    .hero-tubes-metrogil {
+        left: 34vw;
+    }
 
 }
 
 @media (max-width: 1100px) { 
-
+    .hero-content-2 {
+        height: 67vw;
+    }
 }
 
 @media (max-width: 991px) { 
     .hero-content-wrp {
         padding-bottom: 40px;
     }
+    .hero-content-2 {
+        height: 72vw;
+    }
+    .hero-table {
+        bottom: 7px;  
+    }
 }
 
 
 @media (max-width: 767px) { 
-
+    .hero-content-2 {
+        height: 77vw;
+    }
+    .hero-woman-2 {
+        margin-right: 120px;   
+    }
+    .hero-table {
+        bottom: 11px;
+    }
 }
 
 @media (max-width: 622px) { 
@@ -85,6 +104,7 @@
     }
     .hero-rack-inner-metrogil-gel {
         margin-left: 0px;
+        width: 100%;
     }
     .hero-rack {
         left: unset;
@@ -379,6 +399,12 @@
     }
     .hero-content-wrp {
         padding-bottom: 60px;
+    }
+    .hero-tubes-inner-9-wrp {
+        margin-bottom: -4px;
+    }
+    .hero-table {
+        bottom: 0px;
     }
 }
 

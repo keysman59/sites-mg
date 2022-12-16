@@ -119,6 +119,7 @@
 	display: flex;
     justify-content: space-between;
 	max-width: 470px;
+	width: 33vw;
 	margin-left: 40px;
 }
 
@@ -216,6 +217,8 @@
 	position: absolute;
 	bottom: 27px;
 	left: 450px;
+	display: flex;
+    align-items: flex-end;
 }
 
 .hero-tubes-mob-metrogil {
@@ -242,7 +245,7 @@
 .hero-tubes-9 {
 	max-width: 123px;
     width: 9vw;
-	margin-left: 23px;
+	/* margin-left: 23px; */
 	z-index: 9;
 	position: relative;
 }
@@ -522,6 +525,8 @@
 	display: flex;
 	align-items: flex-end;
 	position: relative;
+	margin-left: 23px;
+	margin-bottom: 3px;
 }
 .hero-tubes-inner-10-wrp {
 	display: flex;
@@ -541,7 +546,9 @@
     width: 150px;
 } 
 
-
+.hero-tubes-6, .hero-tubes-7, .hero-tubes-8 {
+	display: block;
+}
 
 /* animation css */
 

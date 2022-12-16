@@ -249,10 +249,6 @@
 	.hero__decor-line {
 		background: rgba(0, 0, 0, .4);
 	}
-	.header-burger-mobile {
-		max-width: 22px;
-		top: 5px;
-	}
 	.hero__description {
 		max-width: 200px;
 		font-family: 'Playfair';
