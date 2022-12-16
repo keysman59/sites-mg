@@ -116,6 +116,10 @@
 
 .hero-rack-inner-metrogil-gel {
 	position: relative;
+	display: flex;
+    justify-content: space-between;
+	max-width: 470px;
+	margin-left: 40px;
 }
 
 .hero-rack {
@@ -124,7 +128,7 @@
 	top: 85px;
     display: flex;
     flex-direction: column;
-	top: 42%;
+	top: 22%;
 }
 
 .hero-rack-1 {
@@ -134,32 +138,25 @@
 .hero-rack-2 {
 	max-width: 136px;
     width: 9.5vw;
-    position: absolute;
-    bottom: 0;
-    left: 7%;
 }
 .hero-rack-3 {
 	max-width: 81px;
     width: 6vw;
     z-index: 6;
     position: absolute;
-	top: -18px;
+    top: 93%;
     left: 41%;
 }
 .hero-rack-4 {
 	max-width: 94px;
     position: absolute;
-    top: 0;
+	top: 107.5%;
     left: 55%;
     width: 7vw;
 }
 .hero-rack-5 {
-
 	max-width: 103px;
-    position: absolute;
-	bottom: 0%;
-    width: 8vw;
-    right: 48px;
+	width: 8vw;
 }
 
 .hero-rack-5::before {
@@ -500,19 +497,22 @@
 	margin-bottom: 108px;
 }
 
-/* .hero-tubes-inner-wrp {
+.hero-tubes-inner-wrp {
+
+}
+
+.hero-tubes-inner-5-wrp {
+	display: flex;
+	align-items: flex-end;
 	position: relative;
 }
 
 .hero-tubes-5-wrp {
-	position: absolute !important;
-	max-width: 54px;
-    width: 100%;
-    right: 2px;
-	max-width: 103px;
-    bottom: 0%;
-    width: 8vw;
-} */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+} 
 
 
 

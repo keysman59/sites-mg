@@ -83,10 +83,13 @@
     .hero-rack-inner-metrogil {
 
     }
+    .hero-rack-inner-metrogil-gel {
+        margin-left: 0px;
+    }
     .hero-rack {
         left: unset;
         right: 0px;
-        top: 22%;
+        top: 2%;
         display: flex;
         flex-direction: column;
     }
@@ -106,6 +109,17 @@
     .hero-rack-4 {
         display: none;
     }
+
+    .hero-tubes-inner-5-wrp::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+      }
     .hero-rack-5 {
         max-width: 54px;
         width: 100%;
@@ -120,7 +134,7 @@
         bottom: 3px;
     }
     .hero-tubes-wrp {
-        position: relative;
+        /* position: relative; */
     }
     .hero-tubes-1 {
         width: 100%;
