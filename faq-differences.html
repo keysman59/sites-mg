@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/faq.css">
+<link rel="stylesheet" href="css/faq-mobile.css">
 <link rel="stylesheet" href="css/public.css">
 <!-- <link rel="shortcut icon" href="images/public/favicon.png" type="image/x-icon"> -->
 
@@ -17,20 +18,38 @@
 
 <div class="wrapper">
 
+	<div class="mobile-menu" id="mobile-menu">
+		<img class="mobile-menu-logo" src="images/logo-mobile-menu.png" alt="">
+		<div class="mobile-menu-decor"></div>
+		<a class="nav__link-mob" href="#">ГЛАВНАЯ</a>
+		<a class="nav__link-mob" href="#">Метрогил гель</a>
+		<a class="nav__link-mob" href="#">Метрогил А</a>
+		<a class="nav__link-mob" href="#">Где купить</a>
+		<a class="nav__link-mob" href="#">FAQ </a>
+		<a class="nav__link-mob" href="#">Блог </a>
+		<a class="nav__link-mob" href="#">Контакты </a>
+		<img id="mobile-menu-btn-close" class="sideform-close" src="images/close-mobile-menu.png" alt="">
+	</div>
+	
 	<div class="header">
 		<div class="container-main header-content-wrp">
-			<div class="hero-content">
+			<div class="header-content">
 				<h2 class="header__name">Метрогил <span class="header__name-r">®</span> </h2>
-				<div class="hero__decor-line"></div>
-				<div class="nav">
-					<a href="index.html" class="nav__link">главная</a>
-					<a href="" class="nav__link">Метрогил гель</a>
-					<a href="" class="nav__link">Метрогил А</a>
-					<a href="" class="nav__link">Где купить</a>
-					<a href="" class="nav__link">FAQ</a>
-					<a href="" class="nav__link">Блог</a>
-					<a href="" class="nav__link">Контакты</a>
+				<div class="header__name--wrp-img"><img class="header__name--img" src="images/header/mobile-logo-header.png" alt=""></div>
+				
+				<img class="header-burger-mobile" id="mobile-menu-btn" src="images/burger-mobile-menu.svg" alt="">
+				<div class="nav-wrp">
+					<div class="nav">
+						<a href="index.html" class="nav__link">главная</a>
+						<a href="product-metrogil-gel.html" class="nav__link">Метрогил&nbsp;гель</a>
+						<a href="product-metrogil-a.html" class="nav__link">Метрогил&nbsp;А</a>
+						<a href="" class="nav__link">Где&nbsp;купить</a>
+						<a href="" class="nav__link">FAQ</a>
+						<a href="" class="nav__link">Блог</a>
+						<a href="" class="nav__link">Контакты</a>
+					</div>
 				</div>
+				<div class="nav-linear-mobile"></div>
 				<div class="hero__decor-line"></div>
 			</div>
 		</div>
@@ -39,7 +58,8 @@
 	<div class="route">
 		<div class="container-main route-content-wrp">
 			<div class="route-content">
-				<div class="route__text">Метрогил   /   Блог  /   Популярные мифы про акне: диета, советы и врачи</div>
+				<div class="route__text route__text--desk">Метрогил   /   Блог  /   Популярные мифы про акне: диета, советы и врачи</div>
+				<div class="route__text route__text--mob">Популярные мифы про акне: диета, советы и врачи</div>
 			</div>
 		</div>
 	</div>
@@ -110,26 +130,30 @@
 				<div class="products-sides">
 					<div class="products-left-side">
 						<div class="products-item">
-							<div class="products-item__wrp-img">
+							<div class="products-item-decor-line"></div>
+							<div class="products-item__wrp-img products-item__wrp-img-1">
 								<img class="img" src="images/faq/metrogil-gel.png" alt="">
 							</div>
 							<div class="products-item-desc">
 								<div class="products__caption">Метрогил® гель</div>
-								<div class="products__text">Гель для наружного применения 1% для лечения розацеа и небольших мокнущих воспалений, вызванных микробами или простейшими. </div>
+								<div class="products__text products__text-1">Гель для наружного применения 1% для лечения розацеа и небольших мокнущих воспалений, вызванных микробами или простейшими. </div>
 								<div class="btn btn-black products__btn">Купить</div>
 							</div>
+							<div class="products-item-decor-line products-item-decor-line--bot"></div>
 						</div>
 					</div>
 					<div class="products-right-side">
 						<div class="products-item">
-							<div class="products-item__wrp-img">
+							<div class="products-item-decor-line"></div>
+							<div class="products-item__wrp-img products-item__wrp-img-2">
 								<img class="img" src="images/faq/metrogil-a.png" alt="">
 							</div>
-							<div class="products-item-desc">
+								<div class="products-item-desc">
 								<div class="products__caption">Метрогил® А</div>
-								<div class="products__text">Гель для наружного применения 1% для лечения угревой сыпи и комедонов</div>
+								<div class="products__text products__text-2">Гель для наружного применения 1% для&nbsp;лечения угревой сыпи и комедонов</div>
 								<div class="btn btn-black products__btn">Купить</div>
 							</div>
+							<div class="products-item-decor-line products-item-decor-line--bot"></div>
 						</div>
 					</div>
 				</div>
@@ -143,13 +167,13 @@
 				<h3 class="section-products__caption question__caption">Другие вопросы и ответы</h3>
 				<div class="question-items">
 					<div class="question-item">
-						Чем отличается Метрогил® гель от Метрогил® А?
+						Как правильно использовать Метрогил® А? 
 					</div>
 					<div class="question-item">
-						От каких прыщей помогает Метрогил® А?
+						Метрогил® гель помогает от прыщей?
 					</div>
 					<div class="question-item">
-						Сушит ли кожу Метрогил® А?
+						Как правильно использовать Метрогил® гель? 
 					</div>
 				</div>
 			</div>
@@ -186,6 +210,6 @@
 
 </div>
 
-<script src="scripts/description.js"></script>
+<script src="scripts/script-mm.js"></script>
 </body>
 </html>
