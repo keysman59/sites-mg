@@ -1,0 +1,675 @@
+/* route */
+
+.route {
+	margin-top: 34px;
+	margin-bottom: 51px;
+}
+
+.route__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	text-transform: uppercase;
+	color: #7C7C7C;
+}
+
+/* hero */
+
+.hero {
+	/* height: 918px; */
+	position: relative;
+}
+
+.hero-content-wrp {
+	height: 100%;
+	position: relative;
+	height: calc(100% - 57px);
+}
+
+.hero-content {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+
+.hero-top {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 51px;
+}
+
+.hero-main-img {
+	margin-bottom: 64px;
+}
+
+/* hero-tags */
+
+.hero-tags {
+	width: 40%;
+	padding-top: 30px;
+}
+.hero-tags-row {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 18px;
+}
+.hero-tags-block {
+	text-align: center;
+	padding-top: 4.5px;
+	padding-bottom: 4.5px;
+	margin-left: 20px;
+	border: 1px solid #7C7C7C;
+	width: 100px;
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+
+color: #7C7C7C;
+}
+.hero-tags-block--long {
+	width: 220px;
+}
+
+.hero__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	color: #000000;
+	max-width: 819px;
+}
+
+/* animation css */
+
+.hidden {
+	display: none;
+}
+
+.visuallyhidden {
+	opacity: 0;
+}
+
+/* animation css end */
+
+/* ARTICLES */
+
+.articles {
+
+}
+
+.articles-content-wrp {
+	padding-bottom: 179px;
+}
+
+.articles-content {
+
+}
+
+.articles-block {
+	display: flex;
+	flex-direction: column;
+	padding-top: 48px;
+}
+
+.articles-decor-line {
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	margin-top: 21px;
+	margin-bottom: 48px;
+}
+
+.articles-space {
+	height: 36px;
+}
+
+.articles__btn {
+	max-width: 340px;
+}
+
+.articles__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.articles__subtitle {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.articles__subtitle--sensitive {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	max-width: 584px;
+}
+.articles__subtitle--celebrities {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	/* max-width: 584px; */
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.articles__subtitle--enemy {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
+.articles__subtitle--secret {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.articles-foto-div {
+	margin-bottom: 30px;
+}
+
+.articles-foto-div-1 {
+
+}
+.articles-foto-div-2 {
+	padding-right: 55px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.articles-foto-name {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.articles-list {
+	padding-left: 40px;
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.articles-item {
+	margin-bottom: 4px;
+}
+
+.articles-params {
+	margin-top: 81px;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 154px;
+}
+
+.articles-params--comedones {
+	margin-bottom: 0px;
+}
+
+.articles-img-1 {
+	margin-top: 594px;
+}
+.articles-img-2 {
+	width: 100%;
+	margin-bottom: 18px;
+}
+.articles-img-3 {
+	width: 100%;
+	max-width: 460px;
+	margin-bottom: 18px;
+}
+
+.articles-img-1--comedones {
+	margin-top: 1212px;
+	width: 100%;
+	max-width: 459px;
+}
+.articles-img-2--comedones {
+	width: 100%;
+	margin-top: 65px;
+}
+
+.articles-img-1--enemy {
+	width: 100%;
+	margin-top: 87px;
+}
+.articles-img-2--enemy {
+	width: 100%;
+	max-width: 460px;
+}
+
+
+.articles-img-1--treatment {
+	width: 100%;
+	max-width: 460px;
+}
+.articles-img-2--treatment {
+	width: 100%;
+	margin-top: 120px;
+}
+
+.articles-img-1--secret {
+	width: 100%;
+	max-width: 460px;
+	margin-top: 52px;
+}
+.articles-img-2--secret {
+	width: 100%;
+	margin-top: 60px;
+}
+
+.articles-img-1--advice {
+	width: 100%;
+	max-width: 460px;
+	margin-top: 90px;
+}
+.articles-img-2--advice {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.articles-img-1--knowledge {
+	width: 100%;
+	max-width: 212px;
+}
+.articles-img-2--knowledge {
+	width: 100%;
+	margin-top: 120px;
+}
+.articles-img-3--knowledge {
+	width: 100%;
+	max-width: 460px;
+}
+
+.articles-img-1--recipe {
+	width: 100%;
+	max-width: 460px;
+}
+
+.articles-img-2--tryst {
+	width: 100%;
+	margin-top: 63px;
+	margin-bottom: 63px;	
+}
+
+.articles-img-1--rule {
+	width: 100%;
+	max-width: 460px;
+}
+.articles-img-2--rule {
+	margin-top: 330px;
+	width: 100%;
+	max-width: 460px;
+}
+.articles-img-3--rule {
+	width: 100%;
+	margin-bottom: 66px;
+}
+
+.articles-img-1--travel {
+	width: 100%;
+	margin-bottom: 66px;
+}
+.articles-img-2--travel {
+	width: 100%;
+	margin-bottom: 66px;
+}
+
+.articles-img-1--naturalness {
+	width: 100%;
+	max-width: 320px;
+}
+.articles-img-2--naturalness {
+	width: 100%;
+	max-width: 340px;
+	margin-left: auto;
+}
+
+.articles-img-1--celebrities {
+	width: 100%;
+	max-width: 320px;
+}
+.articles-img-2--celebrities {
+	width: 100%;
+	max-width: 332px;
+}
+
+.articles-param {
+	display: flex;
+    flex-direction: column;
+    width: 45%;
+	margin-bottom: 81px;
+}
+
+.articles-param:last-child {
+	margin-bottom: 0px;
+}
+
+.articles-param__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 32px;
+}
+
+.articles-param__caption--comedons {
+	max-width: 501px;
+	margin-bottom: 70px;
+}
+
+.articles-param__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.articles-sides {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-side {
+	width: 44.2%;
+}
+
+.right-side {
+	width: 54.2%;
+}
+
+.articles-images-block {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 71px;
+}
+
+.articles__img {
+	width: 100%;
+}
+
+.articles__caption {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	max-width: 540px;
+}
+
+.articles__mini-caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.articles__caption-5 {
+    max-width: 430px;
+}
+
+.articles-decor-line {
+	width: 100%;
+	height: 1px;
+	background: #000000;
+}
+
+.articles-right-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.articles-right-item {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	max-width: 340px;
+	margin-bottom: 59px;
+}
+
+.articles-right-item__caption {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.articles-right-item__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+
+
+.expert {
+	display: flex;
+	margin-top: 181px;
+	/* margin-bottom: 149px; */
+}
+
+.expert-text-block {
+	padding-top: 24px;
+
+}
+
+.expert__img {
+	margin-right: 34px;
+}
+
+.expert__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.expert__name {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.expert__profession {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #7C7C7C;
+}
+
+
+/* REFERENCE */
+
+.reference {
+
+}
+
+.reference-content-wrp {
+	padding-bottom: 129px;
+}
+
+.reference-content {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	padding-left: 30px;
+	width: 100%;
+}
+
+.reference-sides {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reference__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #7C7C7C;
+}
+
+.reference__caption {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #0C0B0B;
+	margin-bottom: 28px;
+}
+
+.reference-vertical-line {
+	height: 100%;
+	width: 1px;
+	background: #C4C4C4;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.reference-left {
+    width: 47%;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+
+.reference-right {
+    width: 47%;
+}
+
+/* OTHER */
+
+.other {
+	margin-top: 50px;
+}
+
+.other-content-wrp {
+	padding-bottom: 53px;
+}
+
+.other-content {
+
+}
+
+.other__caption {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	color: #000000;
+}
+
+.other-decor-line {
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	margin-top: 26px;
+	margin-bottom: 33px;
+}
+
+.other-items {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+
+.other-item {
+	width: 23%;
+}
+
+.other-item__img {
+	width: 100%;
+}
+
+.other-item__subtitle {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #000000;
+	margin-bottom: 2px;
+	margin-top: 20px;
+}
+
+.other-item__title {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+}
