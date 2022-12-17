@@ -60,6 +60,9 @@
 	width: 40%;
 	padding-top: 30px;
 }
+.hero-tags-overflow {
+
+}
 .hero-tags-row {
 	display: flex;
 	justify-content: flex-end;
@@ -116,6 +119,32 @@ color: #7C7C7C;
 	width: 54.2%;
 }
 
+/* INFO */
+
+.info {
+
+}
+.info-content-wrp {
+	padding-bottom: 99px;
+}
+.info-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-sides {
+
+}
+
+.left-side {
+
+}
+
+.right-side {
+
+}
+
+
 
 /* ANSWER */
 
@@ -124,6 +153,7 @@ color: #7C7C7C;
 }
 .answer-content-wrp {
 	padding-bottom: 99px;
+	flex-direction: column;
 }
 .answer-content {
 	display: flex;

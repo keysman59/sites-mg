@@ -14,6 +14,9 @@
 		max-width: 630px;
 	}
 	.hero-tags {
+
+	}
+	.hero-tags-overflow {
 		display: flex;
 	}
 	.hero-tags-block {
@@ -66,6 +69,12 @@
 	.hero-tags-row {
 		margin-bottom: 0px;
 	}
+	.hero-main-img {
+		margin-bottom: 42px;
+	}
+	.hero-main-img {
+		width: 100vw;
+	}
 }
 
 @media (max-width: 479px) { 
@@ -81,6 +90,12 @@
 		display: flex;
 		align-items: center;
 		letter-spacing: 0.02em;
+	}
+	.hero-tags {
+		overflow-x: auto;
+	}
+	.hero-main-img {
+		margin-bottom: 24px;
 	}
 
 }
