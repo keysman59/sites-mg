@@ -146,6 +146,41 @@
 .plato-item {
 	margin-bottom: 32px;
 }
+.plato-item-1 {
+	position: relative;
+}
+.plato-item-1__top-text {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #A7A7A7;
+    background: white;
+    position: absolute;
+    top: 41px;
+	left: 50%;
+    margin-left: -61.5px;
+}
+.plato-item-1__bot-text {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 125%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+    bottom: 45px;
+	max-width: 450px;
+	left: 50%;
+    margin-left: -225px;
+}
 
 .plato-item:hover { 
 	/* text-decoration: underline; */
