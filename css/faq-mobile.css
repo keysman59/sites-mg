@@ -48,6 +48,10 @@
 	.products-right-side {
 		margin-left: 0;
 	}
+	.question-content-wrp {
+		padding-bottom: 120px;
+	}
+
 }
 
 @media (max-width: 991px) { 

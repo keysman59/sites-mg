@@ -24,6 +24,9 @@
 	.answer-content {
 		margin-bottom: 62px;
 	}
+	.answer-content-wrp {
+		padding-bottom: 48px;
+	}
 	.answer-lit-vertical-line {
 		height: 212px;
 	}
@@ -47,6 +50,13 @@
 	}
 	.products-right-side {
 		margin-left: 0;
+	}
+	.products-content {
+		width: 32%;
+		margin-right: 10%;
+	}
+	.question-content-wrp {
+		padding-bottom: 120px;
 	}
 }
 
@@ -81,7 +91,8 @@
 		margin-bottom: 24px;
 	}
 	.answer-content-wrp {
-		flex-direction: column-reverse;
+		/* flex-direction: column-reverse; */
+		padding-bottom: 48px;
 	}
 	.products-item-decor-line--bot {
 		display: none;
@@ -90,30 +101,29 @@
 		margin-top: 48px;
 	}
 	.answer-left {
-		display: none;
+		/* display: none; */
+		height: 180px;
 	}
 	.answer-right {
 		width: 100%;
 		max-width: 550px;
 	}
 	.answer-lit-vertical-line {
-		display: none;
+		/* display: none; */
 	}
 	.answer-content {
-		margin-top: 48px;
+		/* margin-top: 48px; */
+		/* margin-bottom: 0px; */
 	}
 	.answer__text {
 		max-width: 689px;
 		font-size: 16px;
 	}
 	.answer__text--mob {
-		display: block;
+		/* display: block; */
 	}
 	.answer-lit-wrp {
 		margin-left: 0px;
-	}
-	.answer-content {
-		margin-bottom: 0px;
 	}
 	.question-content-wrp {
 		padding-bottom: 78px;
@@ -127,6 +137,9 @@
 	}
 	.question-items {
 		margin-top: 48px;
+	}
+	.answer-lit-wrp {
+		margin-left: 0px;
 	}
 
 }
