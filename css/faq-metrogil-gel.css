@@ -1,0 +1,385 @@
+/* route */
+
+.route {
+	margin-top: 34px;
+	margin-bottom: 51px;
+}
+
+.route__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	color: #7C7C7C;
+}
+.route__text--desk { 
+	
+}
+.route__text--mob { 
+	display: none;
+}
+
+/* hero */
+
+.hero {
+	/* height: 918px; */
+	position: relative;
+}
+
+.hero-content-wrp {
+	height: 100%;
+	position: relative;
+	height: calc(100% - 57px);
+}
+
+.hero-content {
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+
+.hero-top {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 51px;
+}
+
+.hero-main-img {
+	margin-bottom: 81px;
+}
+
+/* hero-tags */
+
+.hero-tags {
+	width: 40%;
+	padding-top: 30px;
+}
+.hero-tags-overflow {
+
+}
+.hero-tags-row {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 18px;
+}
+.hero-tags-block {
+	text-align: center;
+	padding-top: 4.5px;
+	padding-bottom: 4.5px;
+	margin-left: 20px;
+	border: 1px solid #7C7C7C;
+	width: 100px;
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+
+color: #7C7C7C;
+}
+.hero-tags-block--long {
+	width: 220px;
+}
+
+.hero__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	color: #000000;
+	max-width: 819px;
+}
+
+/* animation css */
+
+.hidden {
+	display: none;
+}
+
+.visuallyhidden {
+	opacity: 0;
+}
+
+/* animation css end */
+
+
+.side-left {
+	width: 49%;
+}
+
+.side-right {
+	width: 49.5%;
+	margin-left: 1.5%;
+}
+
+/* INFO */
+
+.info {
+
+}
+.info-content-wrp {
+	padding-bottom: 99px;
+}
+.info-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-sides {
+
+}
+
+.left-side {
+
+}
+
+.right-side {
+
+}
+
+
+
+/* ANSWER */
+
+.answer {
+
+}
+.answer-content-wrp {
+	padding-bottom: 99px;
+	flex-direction: row-reverse;
+}
+.answer-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 96px;
+	flex-direction: column;
+}
+
+.answer-left {
+	width: 100%;
+	height: 209px;
+}
+.answer-right {
+	width: 100%;
+	position: relative;
+	/* padding-left: 30px; */
+}
+
+.answer-lit-wrp {
+	margin-left: 30px;
+}
+
+.answer__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	max-width: 579px;
+}
+.answer__text--mob {
+	display: none;
+}
+
+.answer-lit__caption {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #0C0B0B;
+	margin-bottom: 30px;
+}
+
+.answer-lit__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #7C7C7C;
+}
+
+.reference-sides {
+
+}
+
+
+
+.answer-lit__text {
+
+}
+
+.answer-lit-vertical-line {
+    height: 172px;
+	width: 1px;
+	background: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/* QUESTION */
+
+.question {
+
+}
+
+.question__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.question-content-wrp {
+	padding-bottom: 178px;
+}
+
+.question-content {
+	width: 100%;
+}
+
+.question-items {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 78px;
+	justify-content: space-between;
+}
+
+.question-item {
+	padding: 27px 80px 31px 25px;	
+	border: 2px solid #E6E6E6;
+	background-image: url('../images/main-pages/arrow-right.png');
+	background-repeat: no-repeat;
+	background-position: 92% 44%;
+	max-width: 24%;
+    width: 22.5vw;
+	margin-bottom: 25px;
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+/* PRODUCTS */
+
+.products {
+
+}
+
+.products-content-wrp {
+	padding-bottom: 136px;
+}
+
+.products-content {
+	width: 100%;
+}
+
+.products-sides {
+	display: flex;
+    justify-content: space-between;
+}
+
+.products-left-side {
+	/* width: 48%; */
+}
+
+.products-right-side {
+	/* width: 48%; */
+}
+
+.products__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 7px;
+}
+
+.products__text {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	color: #000000;
+	margin-bottom: 13px;
+	flex: 1 1 auto;
+}
+
+.products__text-1 {
+	max-width: 300px;
+}
+.products__text-2 {
+	max-width: 300px;
+}
+
+.products__btn {
+
+}
+
+.products-item {
+	display: flex;
+	position: relative;
+	padding-top: 13px;
+	padding-bottom: 23px;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.products-item__wrp-img {
+	max-width: 300px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+.products-item__wrp-img-1 {
+
+}
+.products-item__wrp-img-2 {
+	max-width: 250px;
+}
+
+.products-item-desc {
+	height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	max-width: 340px;
+}
+
+.products-item-decor-line {
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.products-item-decor-line--bot {
+	top: unset;
+	bottom: 0;
+	left: 0;
+}
