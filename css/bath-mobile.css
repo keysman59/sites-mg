@@ -75,8 +75,24 @@
     .hero-content-2 {
         height: 72vw;
     }
+    .hero-content-3 {
+        height: 73vw;
+    }
     .hero-table {
         bottom: 7px;  
+    }
+    .hero-table-3 {
+        bottom: 0px;
+    }
+    .hero-btns {
+        flex-direction: column;
+    }
+    .hero__btn-1 {
+        margin-right: 0px;
+        margin-bottom: 21px;
+    }
+    .hero__text {
+        margin-bottom: 68px;
     }
 }
 
@@ -91,6 +107,21 @@
     .hero-table {
         bottom: 11px;
     }
+    .hero-btns {
+        display: flex;
+        width: 100%;
+        max-width: 260px;
+    }
+    .hero__caption {
+        font-size: 35px;
+    }
+    .hero__text {
+        margin-bottom: 43px;
+    }
+    .hero-table-3 {
+        bottom: 0px;
+    }
+
 }
 
 @media (max-width: 622px) { 
@@ -424,9 +455,36 @@
     .hero-table {
         bottom: 0px;
     }
+    .hero-plant-index-1 {
+        position: absolute;
+        bottom: 2.1vw;
+        display: block;
+        max-width: 86px;
+        width: 100%;
+    }
+    .hero-tube-index-1 {
+        position: absolute;
+        bottom: 2vw;
+        display: block;
+        max-width: 89px;
+        width: 100%;
+    }
+    .hero-content-3 {
+        height: 500px;
+        margin-top: 60px;
+        margin-bottom: 29px;
+    }
+    .hero__caption {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 479px) { 
+    .hero-content-3 {
+        height: 560px;
+        margin-top: 50px;
+        margin-bottom: 19px;
+    }
     .hero-tubes-5 {
         width: 100%;
         max-width: 108px;
@@ -438,6 +496,15 @@
     .hero-desc-13 {
         right: unset;
         left: 42% !important;
+    }
+    .hero-tube-index-1 {
+        left: 26px;
+    }
+    .hero-btns {
+        max-width: 163px;
+    }
+    .hero__caption {
+        font-size: 24px;
     }
 }
 
