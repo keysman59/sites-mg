@@ -126,7 +126,8 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: start;
-		font-size: 6.6vw;
+		/* font-size: 6.6vw; */
+		font-size: 25px;
 	}
 	.footer-logo__img {
 		max-width: 42px;
@@ -144,6 +145,11 @@
 	.footer-right {
 		margin-right: 30px;
 	}
+}
 
+@media (max-width: 372px) {   
+	.footer-undertext {
+		font-size: 22px;
+	}
 }
 

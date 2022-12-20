@@ -260,7 +260,7 @@
     }
     .hero-tubes {
         width: 100%;
-        bottom: 3px;
+        bottom: 1.2vw;
     }
     .hero-tubes-wrp {
         /* position: relative; */
@@ -476,6 +476,25 @@
     }
     .hero__caption {
         font-size: 30px;
+    }
+    .hero-black-plus-2 {
+        left: unset;
+        top: unset;
+        bottom: 10px;
+        right: 4px;
+    }
+    .hero-black-plus-3 {
+        left: unset;
+        top: unset;
+        bottom: 41px;
+        right: 3px;
+    }
+    .hero-tubes-1-wrp {
+        position: relative;
+    }
+    .hero-tubes-wrp-3 {
+        margin-left: 25px;
+        position: relative;
     }
 }
 
