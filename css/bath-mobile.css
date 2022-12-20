@@ -41,12 +41,30 @@
     .hero-tubes-metrogil {
         left: 34vw;
     }
+    .hero-tube-index-1 {
+        position: absolute;
+        bottom: 2vw;
+    }
+    .hero-plant-index-1 {
+        position: absolute;
+        bottom: 2.1vw;
+    }
 
 }
 
 @media (max-width: 1100px) { 
     .hero-content-2 {
         height: 67vw;
+    }
+    .hero__caption { 
+        font-size: 45px;
+    }
+    .hero__text {
+        font-size: 16px;
+    }
+    .hero-content-3 {
+        margin-top: 110px;
+        margin-bottom: 70px;
     }
 }
 
