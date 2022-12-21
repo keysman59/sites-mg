@@ -4,7 +4,9 @@ let el5 = document.querySelector('.hero-tubes-5'),
     el8 = document.querySelector('.hero-water-3'),
     el9 = document.querySelector('.hero-water-4'),
     el10 = document.querySelector('.hero-tubes-8'),
+    el12 = document.querySelector('.hero-tubes-6'),
     el11 = document.querySelector('.hero-tubes-7'),
+    el6m = document.querySelector('.hero-tubes-6-mob'),
     el7m = document.querySelector('.hero-tubes-7-mob'),
     el8m = document.querySelector('.hero-tubes-8-mob'),
     desc7 = document.querySelector('.hero-desc-7'),
@@ -13,7 +15,8 @@ let el5 = document.querySelector('.hero-tubes-5'),
     desc10 = document.querySelector('.hero-desc-10'),
     desc11 = document.querySelector('.hero-desc-11'),
     desc12 = document.querySelector('.hero-desc-12'),
-    desc13 = document.querySelector('.hero-desc-13');
+    desc13 = document.querySelector('.hero-desc-13'),
+    desc14 = document.querySelector('.hero-desc-14');
 
 el5.addEventListener('mouseover', () => {
   desc7.classList.remove('hidden')
@@ -63,9 +66,22 @@ el11.addEventListener('mouseover', () => {
     desc13.classList.remove('visuallyhidden')
   }, 20)
 })
+el12.addEventListener('mouseover', () => {
+  desc14.classList.remove('hidden')
+  setTimeout(()=> {
+    desc14.classList.remove('visuallyhidden')
+  }, 20)
+})
+
+el6m.addEventListener('mouseover', () => {
+  console.log('гавели')
+  desc14.classList.remove('hidden')
+  setTimeout(()=> {
+    desc14.classList.remove('visuallyhidden')
+  }, 20)
+})
 
 el7m.addEventListener('mouseover', () => {
-  console.log('навели')
   desc13.classList.remove('hidden')
   setTimeout(()=> {
     desc13.classList.remove('visuallyhidden')
@@ -100,6 +116,12 @@ el10.addEventListener('mouseout', () => {
 el11.addEventListener('mouseout', () => {
   clearDescription()
 })
+el12.addEventListener('mouseout', () => {
+  clearDescription()
+})
+el6m.addEventListener('mouseout', () => {
+  clearDescription()
+})
 el7m.addEventListener('mouseout', () => {
   clearDescription()
 })
@@ -115,6 +137,7 @@ function clearDescription() {
   desc11.classList.add('hidden')
   desc12.classList.add('hidden')
   desc13.classList.add('hidden')
+  desc14.classList.add('hidden')
   desc7.classList.add('visuallyhidden')
   desc8.classList.add('visuallyhidden')
   desc9.classList.add('visuallyhidden')
@@ -122,4 +145,5 @@ function clearDescription() {
   desc11.classList.add('visuallyhidden')
   desc12.classList.add('visuallyhidden')
   desc13.classList.add('visuallyhidden')
+  desc14.classList.add('visuallyhidden')
 }
