@@ -566,6 +566,11 @@
 	align-items: flex-end;
 	position: relative;
 }
+.hero-tubes-inner-11-1-wrp {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
 
 .hero-tubes-5-wrp {
     position: absolute;

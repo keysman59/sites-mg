@@ -239,11 +239,24 @@
         background: url('../images/black-plus-mobile--8.png');
         background-repeat: no-repeat;
     }
+    .hero-tubes-inner-11-1-wrp {
+        margin-left: 15px;
+    }
     .hero-tubes-inner-11-wrp::before {
         content: "";
         position: absolute;
         top: -7px;
         right: -8px;
+        width: 8px;
+        height: 8px;
+        background: url('../images/black-plus-mobile--8.png');
+        background-repeat: no-repeat;
+    }
+    .hero-tubes-inner-11-1-wrp::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        right: 38px;
         width: 8px;
         height: 8px;
         background: url('../images/black-plus-mobile--8.png');
@@ -320,6 +333,8 @@
         max-width: 40px;
         margin-bottom: -58px;
         z-index: 4;
+        position: absolute;
+        right: 13%;
     }
     .hero-tubes-11-mob {
         width: 100%;
