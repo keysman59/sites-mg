@@ -114,25 +114,29 @@
 
 /* ADV */
 
-.adv-content {
+.advv {
+
+}
+
+.advv-content {
 	display: flex;
 	width: 100%;
 }
 
-.adv-content-wrp {
+.advv-content-wrp {
 	padding-top: 64px;
 }
 
-.adv-check {	
+.advv-check {	
 	width: 66%;
 
 }
 
-.adv-check-row {
+.advv-check-row {
 	display: flex;
 }
 
-.adv-check-item {
+.advv-check-item {
 	display: flex;
 	align-items: flex-start;
 	width: 100%;
@@ -141,7 +145,7 @@
 	padding-right: 25px;
 }
 
-.adv-check-item__text {
+.advv-check-item__text {
 	margin-left: 22px;
 	max-width: 340px;
 	font-family: 'Geometria';
@@ -276,6 +280,7 @@
 	display: flex;
 	align-items: flex-start;
 	margin-bottom: 52px;
+	min-height: 120px;
 }
 
 .why-item__circle {
@@ -345,7 +350,7 @@
 .application-item {
 	display: flex;
 	align-items: flex-start;
-	width: 50%;
+	width: 48%;
 	margin-bottom: 80px;
 }
 

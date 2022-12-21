@@ -86,14 +86,14 @@
 	.header__name-r {
 		margin-top: 7px;
 	}
-	.adv-content {
+	.advv-content {
 		flex-direction: column;
 		align-items: flex-end;
 	}
-	.adv-check {
+	.advv-check {
 		width: 100%;
 	}
-	.adv-check-row {
+	.advv-check-row {
 		display: flex;
 		justify-content: space-between;
 	}
@@ -267,16 +267,13 @@
 		margin-left: 14px;
 		max-width: 150px;
 	}
-	.adv-check-item {
-		width: 50%;
-	}
-	.adv-check-row {
+	.advv-check-row {
 		flex-wrap: wrap;
 	}
-	.adv-check-item {
-		width: 44%;
+	.advv-check-item {
+		width: 100%;
 	}
-	.adv-check-item__text {
+	.advv-check-item__text {
 		font-size: 18px;
 	}
 	.rec-info {
@@ -335,6 +332,7 @@
 	.why-item {
 		align-items: center;
 		flex-direction: row;
+		min-height: auto;
 	}
 	.why__caption {
 		display: none;
@@ -441,13 +439,13 @@
 	.hero-content-wrp {
 		padding-bottom: 14px;
 	}
-	.adv-content {
+	.advv-content {
 		flex-direction: column-reverse;
 	}
 	.adv-btns {
 		max-width: 100%;
 	}
-	.adv-check {
+	.advv-check {
 		margin-top: 48px;
 	}
 	.adv-check-item {
@@ -455,7 +453,7 @@
 		margin-bottom: 24px;
 		width: 100%;
 	}
-	.adv-check-item__text {
+	.advv-check-item__text {
 		font-family: 'Geometria';
 		font-style: normal;
 		font-weight: 400;
