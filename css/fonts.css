@@ -74,9 +74,12 @@
 
 /* PLAYFAIR DISPLAY */
 
+
 @font-face {
 	font-family: 'Gotham';  
 	src: url('../fonts/Gotham-Medium.ttf') format('truetype'); 
+    src: url('../fonts/Gotham-Medium.woff') format('woff');
+    src: url("../fonts/Gotham-Medium.otf") format("opentype");
 	font-style: normal; 
 	font-weight: 400;
 }  
