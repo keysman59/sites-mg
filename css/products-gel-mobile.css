@@ -85,6 +85,9 @@
 		top: 20px;
 		width: 32vw;
 	}
+	.app-content-caption-wrp-right {
+		max-width: 340px;
+	}
 }
 @media (max-width: 1250px) { 
 	.question-items {
@@ -192,6 +195,10 @@
 	}
 	.section-products__caption {
 		font-size: 40px;
+		max-width: 406px;
+	}
+	.app-content-caption-wrp {
+		margin-bottom: 60px;
 	}
 	.why-item__text {
 		font-size: 16px;
@@ -224,6 +231,12 @@
 		position: absolute;
 		top: -48px;
 		right: 16px;
+	}
+	.why-item__circle__img-3 {
+		width: 20px !important;
+	}
+	.why-item__circle__img-4 {
+		width: 12px !important;
 	}
 }
 
@@ -267,6 +280,16 @@
 	}
 	.reference-content-wrp {
 		padding-bottom: 90px;
+	}
+	.app-content-caption-wrp {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.app-content-caption-wrp-right__decor-line {
+		display: none;
+	}
+	.app-content-caption-wrp-right {
+		padding-left: 0px;
 	}
 }
 
@@ -376,6 +399,7 @@
 	.why-item {
 		align-items: center;
 		flex-direction: row;
+		min-height: auto;
 	}
 	.why__caption {
 		display: none;
@@ -391,6 +415,7 @@
 	}
 	.why-use {
 		margin-left: 0;
+		max-width: 420px;
 	}
 	.adv-use {
 		justify-content: start;
@@ -603,6 +628,10 @@
 	}
 	.section-products__caption {
 		font-size: 20px;
+		margin-left: 0 !important;
+	}
+	.section-products__caption--question {
+		margin-left: 16px !important;
 	}
 	.application-item__img {
 		margin-right: 0px;

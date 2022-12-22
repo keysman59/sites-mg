@@ -54,7 +54,6 @@ html {
 	padding: 16px 142px;
     text-align: center;
 	border: 1px solid #000000; 
-
 	font-family: 'Geometria';
 	font-style: normal;
 	font-weight: 400;
@@ -66,6 +65,23 @@ html {
 	color: #000000;
 	cursor: pointer;
 	justify-content: center;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #000000;
+}
+
+.adv-use__btn-1 {
+	background-image: url('../images/main-pages/instruction.png');
+	background-repeat: no-repeat;
+    background-position: 27% 46%;
+}
+
+.adv-use__btn-1:hover {
+	background-image: url('../images/main-pages/instruction-black.png');
+	background-repeat: no-repeat;
+    background-position: 27% 46%;
 }
 
 .section__caption {
@@ -80,6 +96,11 @@ html {
 .btn-black { 
 	background: #000000;
 	color: white;
+}
+.btn-black:hover {
+	background: transparent;
+	color: #000000;
+	border: 1px solid #000000;
 }
 
 .img {

@@ -171,12 +171,6 @@
 	margin-bottom: 24px;
 }
 
-.adv-use__btn-1 {
-	background-image: url('../images/main-pages/instruction.png');
-	background-repeat: no-repeat;
-    background-position: 27% 46%;
-}
-
 .adv-use__btn:last-child {
 	margin-bottom: 0px;
 }
