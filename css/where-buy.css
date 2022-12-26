@@ -1,0 +1,217 @@
+/* hero */
+
+.hero {
+	height: 100%;
+	position: relative;
+}
+
+.hero-content-wrp {
+	height: 100%;
+	position: relative;
+	height: calc(100% - 57px);
+	box-sizing: border-box;
+	padding-bottom: 203px;
+}
+
+.hero-content {
+	display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: auto;
+	margin-top: 81px;
+}
+
+.hero__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 125%;
+	display: flex;
+	align-items: center;
+	text-align: start;
+	color: #000000;
+	margin-bottom: 54px;
+}
+
+.hero-route {
+	display: flex;
+	margin-bottom: 69px;
+}
+.hero-route__link {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #686868;
+	margin-right: 60px;
+	cursor: pointer;
+}
+.hero-route__link:last-child { 
+	margin-right: 0px;
+}
+.hero-route__link--active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.hero-plato {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+	justify-content: space-between;
+}
+.plato-row {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 80px;
+	align-items: center;
+}
+.plato-item {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 25%;
+}
+.plato-item img {
+	/* max-width: 260px;
+	width: 100%; */
+}
+
+
+@media (max-width: 1440px) { 
+	.contacts-info__title {
+		font-size: 18px;
+	}
+	.contacts-info__text {
+		font-size: 18px;
+	}
+	.contacts-info {
+		max-width: 420px;
+	}
+	.hero__caption {
+		font-size: 3.5vw;
+	}
+	.plato-item img {
+		width: 70%;
+	}
+	
+}
+@media (max-width: 1100px) { 
+
+    .hero__caption { 
+		font-size: 3.5vw;
+    }
+	.hero-content {
+		margin-top: 58px;
+	}
+	.hero-content-wrp {
+		padding-bottom: 153px;
+	}
+	.plato-row {
+		margin-bottom: 60px;
+	}
+}
+
+@media (max-width: 991px) { 
+	.contacts-info {
+		max-width: 38vw;
+	}
+	.contacts-info__title {
+		font-size: 17px;
+	}
+	.contacts-info__text {
+		font-size: 17px;
+	}
+	.plato-row {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 767px) {  
+    .hero__caption {
+        font-size: 32px;
+    }
+	.contacts-info {
+		margin-top: 40px;
+		max-width: 100%;
+	}
+	.hero-content-wrp {
+		padding-bottom: 110px;
+	}
+	.plato-item img {
+		width: 74%;
+	}
+}
+
+@media (max-width: 622px) { 
+    .hero__caption {
+        font-size: 30px;
+		margin-bottom: 26px;
+    }
+	.hero-content {
+		margin-top: 38px;
+	}
+	.hero-content-wrp {
+		padding-bottom: 90px;
+	}
+	.hero-route {
+		flex-direction: column;
+	}
+	.hero-route__link {
+		margin-bottom: 10px;
+	}
+	.hero-route__link:last-child { 
+		margin-bottom: 0px;
+	}
+	.contacts-info__title {
+        font-size: 16px;
+	}
+	.contacts-info__text {
+        font-size: 16px;
+	}
+	.contacts-info-block {
+		margin-bottom: 28px;
+	}
+	.hero-route {
+		margin-bottom: 59px;
+	}
+	.plato-row {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin-bottom: 0px;
+	}
+	.plato-item {
+		width: 50%;
+		margin-bottom: 0px;
+		height: 116px;
+	}
+	.plato-item img {
+		width: 50%;
+	}
+}
+
+@media (max-width: 479px) { 
+    .hero__caption {
+        font-size: 22px;
+		margin-bottom: 28px;
+    }
+	.hero-content-wrp {
+		padding-bottom: 80px;
+	}
+	.hero-route {
+		margin-bottom: 29px;
+	}
+	.plato-item img {
+		width: 66%;
+	}
+}

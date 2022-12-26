@@ -4,7 +4,7 @@ function init() {
 
     if (document.documentElement.clientWidth >= 600) {
 
-      var myMap = new ymaps.Map('ymap-ittensy', {
+      var myMap = new ymaps.Map('ymap-metrogil', {
           center: [55.72067474644104,37.61281572554774],
           zoom: 17,
           controls: []
@@ -12,7 +12,7 @@ function init() {
           searchControlProvider: 'yandex#search'
       });
     } if (document.documentElement.clientWidth < 600) {
-      var myMap = new ymaps.Map('ymap-ittensy', {
+      var myMap = new ymaps.Map('ymap-metrogil', {
           center: [55.72067474644104,37.61281572554774],
           zoom: 16,
           controls: []
