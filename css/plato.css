@@ -61,6 +61,25 @@
 	opacity: .7;
 }
 
+.hero__description-3 {
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	max-width: 468px;
+	display: flex;
+}
+
+.hero__description-line {
+	width: 1px;
+	/* height: 64px; */
+	background: #000000;
+	margin-right: 30px;
+}
+
 .hero-view__tube {
 	margin-top: 56px;
 	margin-left: 95px;
