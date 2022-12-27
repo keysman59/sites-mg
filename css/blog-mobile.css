@@ -12,7 +12,7 @@
         font-size: 32px;
         max-width: 370px;
         margin-left: -185px;
-        bottom: 108px;
+        bottom: 7vw;
     }
 
     .plato-item-1__top-text {
@@ -22,7 +22,7 @@
         font-size: 32px;
         max-width: 370px;
         margin-left: -185px;
-        bottom: 84px;
+        bottom: 60px;
     }
     .plato-item-2__top-text {
         font-size: 12px;
@@ -31,7 +31,10 @@
         font-size: 32px;
         max-width: 370px;
         margin-left: -185px;
-        bottom: 108px;
+        bottom: 7vw;
+    }
+    .route {
+        margin-top: 88px;
     }
 }
 
@@ -43,20 +46,82 @@
     .plato__subtitle {
         margin-top: 18px;
     }
+    .plato-item-1__bot-text {
+        font-size: 2.4vw;
+    }
+    .plato-item-2__bot-text {
+        font-size: 2.4vw;
+    }
+    .plato-item-3__bot-text {
+        font-size: 2.4vw;
+    }
+    .route {
+        margin-top: 68px;
+    }
 
 }
 
 
 @media (max-width: 767px) { 
-
+    .plato-item-1__top-text {
+        font-size: 11px;
+    }
+    .plato-item-2__top-text {
+        font-size: 11px;
+    }
+    .plato-item-1__bot-text {
+        font-size: 22px;
+        max-width: 276px;
+        margin-left: -138px;
+    }
+    .plato-item-2__bot-text {
+        font-size: 22px;
+        bottom: 32px;
+        max-width: 224px;
+        margin-left: -112px;
+    }
+    .plato-item-3__bot-text {
+        font-size: 22px;
+        max-width: 332px;
+        margin-left: -166px;
+    }
+    .route {
+        margin-top: 58px;
+    }
 }
 
 @media (max-width: 622px) { 
-
+    .plato-ls {
+        width: 100%;
+    }
+    .plato-rs {
+        width: 100%;
+    }
+    .route {
+        margin-top: 34px;
+    }
+    .plato__subtitle {
+        font-size: 14px;
+    }
+    .plato__title {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 479px) { 
- 
+    .route {
+        margin-top: 26px;
+    }
+    .route-content-wrp {
+        padding-bottom: 22px;
+    }
+    .route-blog__item {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .route-blog__item:first-child {
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 380px) { 
