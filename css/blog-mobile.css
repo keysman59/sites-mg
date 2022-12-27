@@ -1,5 +1,38 @@
 @media (max-width: 1440px) { 
+    .plato__title {
+        font-size: 2vw;
+    }
+    .plato__subtitle {
+        font-size: 1.1vw;
+    }
+    .plato-item {
+        margin-bottom: 2.5vw;
+    }
+    .plato-item-1__bot-text {
+        font-size: 32px;
+        max-width: 370px;
+        margin-left: -185px;
+        bottom: 108px;
+    }
 
+    .plato-item-1__top-text {
+        font-size: 12px;
+    }
+    .plato-item-2__bot-text {
+        font-size: 32px;
+        max-width: 370px;
+        margin-left: -185px;
+        bottom: 84px;
+    }
+    .plato-item-2__top-text {
+        font-size: 12px;
+    }
+    .plato-item-3__bot-text {
+        font-size: 32px;
+        max-width: 370px;
+        margin-left: -185px;
+        bottom: 108px;
+    }
 }
 
 @media (max-width: 1100px) { 
@@ -7,6 +40,9 @@
 }
 
 @media (max-width: 991px) { 
+    .plato__subtitle {
+        margin-top: 18px;
+    }
 
 }
 

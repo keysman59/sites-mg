@@ -168,6 +168,20 @@
 	left: 50%;
     margin-left: -260px;
 }
+.plato-item-3__bot-text {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 125%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+    bottom: 45px;
+	max-width: 450px;
+	left: 50%;
+    margin-left: -225px;
+}
 
 .plato-item:hover { 
 	/* text-decoration: underline; */
@@ -179,7 +193,7 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 0px;
+	line-height: 0.8em;
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.02em;
