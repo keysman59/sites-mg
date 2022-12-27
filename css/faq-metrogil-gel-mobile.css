@@ -104,6 +104,12 @@
 		/* display: none; */
 		height: 180px;
 	}
+	.answer-left--dries-skin {
+		height: auto;
+	}
+	.answer-left--care {
+		height: auto;
+	}
 	.answer-right {
 		width: 100%;
 		max-width: 550px;

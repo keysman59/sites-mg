@@ -117,7 +117,7 @@ color: #7C7C7C;
 
 .side-right {
 	width: 49.5%;
-	margin-left: 1.5%;
+	/* margin-left: 1.5%; */
 }
 
 /* INFO */
@@ -168,11 +168,15 @@ color: #7C7C7C;
 
 .answer-left {
 	width: 100%;
-	height: 209px;
+	min-height: 209px;
 }
 .answer-left--dries-skin {
 	height: auto;
-	margin-bottom: 20px;
+	margin-bottom: 64px;
+}
+.answer-left--care {
+	height: auto;
+	margin-bottom: 64px;
 }
 .answer-right {
 	width: 100%;

@@ -267,6 +267,7 @@
     position: absolute;
     bottom: 27px;
 	left: 290px;
+	z-index: 2;
 }
 
 .hero-water-1 {
