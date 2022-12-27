@@ -38,6 +38,15 @@
 	margin-bottom: 42px;
 	max-width: 700px;
 }
+.hero__caption-3 {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 110px;
+	line-height: 70%;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
 
 .hero__description {
 	font-family: 'Geometria';
@@ -68,9 +77,17 @@
     padding: 58px;
     box-sizing: border-box;
 }
+.hero-view-3 {
+    z-index: 3;
+	width: calc(100% - 49px);
+	height: calc(100% - 66px);
+    position: relative;
+    padding: 58px;
+    box-sizing: border-box;
+	background: #A4DCEE;
+}
 
 .hero-bg {
-	/* width: calc(100% - 32px); */
 	width: 100%;
     height: 100%;
     background: url('../images/main-pages/hero-main.jpg');
@@ -79,8 +96,29 @@
     background-position: center;
     position: absolute;
     top: 0;
-    /* left: 16px; */
 	z-index: 2;
+}
+.hero-bg-2 {
+	width: 100%;
+    height: 100%;
+    background: url('../images/main-pages/slider-main/metrogil-a.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+	z-index: 2;
+}
+.hero-bg-3 {
+    width: 100%;
+    height: 100%;
+    background: url('../images/main-pages/slider-main/hero-bg-3.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: absolute;
+    top: 0;
+    z-index: 5;
 }
 
 .slider-item-1 {
