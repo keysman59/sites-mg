@@ -1,0 +1,62 @@
+.route__text--desk {
+
+}
+
+.route {
+    margin-top: 34px;
+    margin-bottom: 51px;
+}
+
+.route__text {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #7C7C7C;
+}
+.route__text--mob { 
+	display: none;
+}
+
+@media (max-width: 1440px) { 
+
+}
+
+@media (max-width: 1100px) { 
+
+}
+
+
+@media (max-width: 991px) { 
+
+}
+
+@media (max-width: 767px) { 
+	.route__text {
+		font-size: 13px;
+	}
+}
+	
+@media (max-width: 622px) { 
+	.route__text--desk { 
+		display: none;
+	}
+	.route__text--mob { 
+		display: block;
+		padding-left: 18px;
+		background: url('../images/faq/arrow-left-mobile.svg');
+		background-repeat: no-repeat;
+		background-position: 0% 29%;
+	}
+	.route {
+		margin-top: 26px;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 479px) { 
+	.route__text {
+		font-size: 12px;
+	}
+}
