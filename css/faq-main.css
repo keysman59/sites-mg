@@ -249,7 +249,7 @@ color: #7C7C7C;
 	justify-content: space-between;
 }
 
-.question-item {
+.question-link {
 	padding: 27px 80px 31px 25px;	
 	border: 2px solid #E6E6E6;
 	background-image: url('../images/main-pages/arrow-right.png');
@@ -266,8 +266,12 @@ color: #7C7C7C;
 	letter-spacing: 0.02em;
 	color: #000000;
 	margin-right: 1.5%;
+	text-decoration: none;
 }
-.question-item--last {
+.question-link:hover {
+	text-decoration: underline;
+}
+.question-link--last {
 	margin-right: 0px;
 }
 
@@ -381,7 +385,7 @@ color: #7C7C7C;
 		justify-content: flex-start;
 		flex-wrap: nowrap;
 	}
-	.question-item {
+	.question-link {
 		width: 23.3vw;
 		margin-right: 1.3vw;
 		font-size: 1.45vw;
@@ -391,15 +395,15 @@ color: #7C7C7C;
 		padding-bottom: 2vw;
 		margin-bottom: 24px;
 	}
-	.question-item--last {
+	.question-link--last {
 		margin-right: 0px;
 	}
 }
 @media (max-width: 1250px) { 
-	.question-item {
+	.question-link {
 		margin-bottom: 20px;
 	}
-	.question-item--last {
+	.question-link--last {
 		margin-right: 0px;
 	}
 }
@@ -442,7 +446,7 @@ color: #7C7C7C;
 	.question-row {
 		flex-wrap: wrap;
 	}
-	.question-item {
+	.question-link {
 		width: 100%;
 		max-width: 100%;
 		margin-right: 0px;
@@ -468,7 +472,7 @@ color: #7C7C7C;
 		margin-top: 20px;
 		margin-bottom: 40px;
 	}
-	.question-item {
+	.question-link {
 		padding-top: 27px;
 		padding-bottom: 31px;
 		font-size: 16px;
