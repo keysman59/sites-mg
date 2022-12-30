@@ -279,7 +279,12 @@ color: #7C7C7C;
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	color: #000000;
+	text-decoration: none;
 }
+.question-item:hover {
+	text-decoration: underline;
+}
+
 
 /* PRODUCTS */
 
