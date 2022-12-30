@@ -41,6 +41,11 @@
 	.articles__caption {
 		font-size: 28px;
 	}
+	.expert__img {
+		margin-right: 28px;
+		max-width: 191px;
+		max-height: 191px;
+	}
 
 }
 
@@ -59,6 +64,41 @@
 	}
 	.right-side {
 		width: 100%;
+	}
+	.articles__caption {
+		margin-bottom: 24px;
+	}
+	.articles-space {
+		height: 24px;
+	}
+	.articles-images-block--right {
+		margin-top: 16px;
+	}
+	.expert__img {
+		max-width: 120px;
+		border-radius: 100%;
+	}
+	.expert__text {
+		font-size: 14px;
+		margin-bottom: 8px;
+	}
+	.expert__name {
+		font-family: 'Playfair';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 150%;
+		color: #000000;
+	}
+	.expert__profession {
+		font-size: 16px;
+	}
+	.articles-content-wrp {
+		padding-bottom: 129px;
+	}
+	.expert {
+		display: flex;
+		margin-top: 64px;
 	}
 }
 	
@@ -100,5 +140,18 @@
 }
 
 @media (max-width: 479px) { 
-
+	.expert {
+		align-items: center;
+	}
+	.expert__img {
+		margin-right: 16px;
+		max-width: 80px;
+		max-height: 80px;
+	}
+	.expert__name {
+		margin-bottom: 4px;
+	}
+	.expert-text-block {
+		padding-top: 0px;
+	}
 }
