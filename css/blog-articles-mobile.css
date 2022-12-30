@@ -54,6 +54,21 @@
 	.articles__subtitle--sensitive {
 		font-size: 32px;
 	}
+	.articles-params {
+		flex-direction: column;
+		margin-top: 48px;
+	}
+	.articles-param {
+		width: 100%;
+		margin-bottom: 41px;
+	}
+	.articles-param__caption {
+		font-size: 26px;
+		margin-bottom: 22px;
+	}
+	.articles-param__text {
+		font-size: 18px;
+	}
 }
 
 
@@ -162,6 +177,9 @@
 	.articles__subtitle--sensitive {
 		font-size: 26px;
 	}
+	.articles-img-1 {
+		margin-top: 0px;
+	}
 }
 	
 @media (max-width: 622px) { 
@@ -208,6 +226,20 @@
 	.articles__subtitle--sensitive {
 		font-size: 24px;
 	}
+	.articles-param__caption {
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+	.articles-param__text {
+		font-size: 16px;
+	}
+	.articles-params {
+		margin-bottom: 64px;
+	}
+	.left-side {
+		width: 100%;
+	}
+
 }
 
 @media (max-width: 479px) { 
