@@ -393,6 +393,9 @@
 	display: flex;
 	justify-content: space-between;
 }
+.articles-sides--first {
+
+}
 
 .left-side {
 	width: 44.2%;
