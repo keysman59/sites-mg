@@ -7,8 +7,10 @@
 <title>Метрогил - чувствительность</title>
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/router.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/blog-articles.css">
+<link rel="stylesheet" href="css/blog-articles-mobile.css">
 <link rel="stylesheet" href="css/public.css">
 <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
 
@@ -17,21 +19,39 @@
 
 <div class="wrapper">
 
+	<div class="mobile-menu" id="mobile-menu">
+		<img class="mobile-menu-logo" src="images/logo-mobile-menu.png" alt="">
+		<div class="mobile-menu-decor"></div>
+		<a class="nav__link-mob" href="index.html">ГЛАВНАЯ</a>
+		<a class="nav__link-mob" href="product-metrogil-gel.html">Метрогил гель</a>
+		<a class="nav__link-mob" href="product-metrogil-a.html">Метрогил А</a>
+		<a class="nav__link-mob" href="where-buy.html">Где купить</a>
+		<a class="nav__link-mob" href="faq.html">FAQ </a>
+		<a class="nav__link-mob" href="blog.html">Блог </a>
+		<a class="nav__link-mob" href="contacts.html">Контакты </a>
+		<img id="mobile-menu-btn-close" class="sideform-close" src="images/close-mobile-menu.png" alt="">
+	</div>
+	
 	<div class="header">
 		<div class="container-main header-content-wrp">
-			<div class="hero-content">
+			<div class="header-content">
 				<h2 class="header__name">Метрогил <span class="header__name-r">®</span> </h2>
-				<div class="hero__decor-line"></div>
-				<div class="nav">
-					<a href="index.html" class="nav__link">главная</a>
-					<a href="" class="nav__link">Метрогил гель</a>
-					<a href="" class="nav__link">Метрогил А</a>
-					<a href="" class="nav__link">Где купить</a>
-					<a href="" class="nav__link">FAQ</a>
-					<a href="" class="nav__link">Блог</a>
-					<a href="" class="nav__link">Контакты</a>
+				<div class="header__name--wrp-img"><img class="header__name--img" src="images/header/mobile-logo-header.png" alt=""></div>
+				<div class="hero__decor-line hero__decor-line--top"></div>
+				<img class="header-burger-mobile" id="mobile-menu-btn" src="images/burger-mobile-menu.svg" alt="">
+				<div class="nav-wrp">
+					<div class="nav">
+						<a href="index.html" class="nav__link">главная</a>
+						<a href="product-metrogil-gel.html" class="nav__link">Метрогил&nbsp;гель</a>
+						<a href="product-metrogil-a.html" class="nav__link">Метрогил&nbsp;А</a>
+						<a href="where-buy.html" class="nav__link">Где&nbsp;купить</a>
+						<a href="faq.html" class="nav__link">FAQ</a>
+						<a href="blog.html" class="nav__link">Блог</a>
+						<a href="contacts.html" class="nav__link">Контакты</a>
+					</div>
 				</div>
-				<div class="hero__decor-line"></div>
+				<div class="nav-linear-mobile"></div>
+				<div class="hero__decor-line hero__decor-line--bot"></div>
 			</div>
 		</div>
 	</div>
@@ -39,7 +59,8 @@
 	<div class="route">
 		<div class="container-main route-content-wrp">
 			<div class="route-content">
-				<div class="route__text">Метрогил   /   Блог  /   Чувствительная кожа: проблемы, причины и уход</div>
+				<div class="route__text route__text--desk">Метрогил   /   Блог  /   Чувствительная кожа: проблемы, причины и уход</div>
+				<div class="route__text route__text--mob">Чувствительная кожа: проблемы, причины и уход</div>
 			</div>
 		</div>
 	</div>
@@ -56,16 +77,16 @@
 						</div>
 						<div class="hero-parametrs-item">
 							<img class="hero-parametrs-item__img" src="images/blogs/hero-eye.png" alt="">
-							<div class="hero-parametrs-item__text">1 034</div>
+							<div class="hero-parametrs-item__text">1&nbsp;034</div>
 						</div>
 						<div class="hero-parametrs-item">
 							<img class="hero-parametrs-item__img" src="images/blogs/hero-hour.png" alt="">
-							<div class="hero-parametrs-item__text">5 мин</div>
+							<div class="hero-parametrs-item__text">5&nbsp;мин</div>
 						</div>
 					</div>
 				</div>
 				<div class="hero-main-img">
-					<img src="images/blogs/hero-main-img-sensitive.jpg" alt="">
+					<img class="img" src="images/blogs/hero-main-img-sensitive.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -186,7 +207,7 @@
 
 						</div>
 						<div class="right-side">
-							<img class="articles-img-2" src="images/blogs/content/sensitive/articles-2.jpg" alt="">
+							<img class="img articles-img-2" src="images/blogs/content/sensitive/articles-2.jpg" alt="">
 							<div class="articles__mini-caption">
 								Недостаточное увлажнение
 							</div>
@@ -231,7 +252,7 @@
 					<div class="articles-decor-line"></div>
 					<div class="articles-sides">
 						<div class="left-side">
-							<img class="articles-img-3" src="images/blogs/content/sensitive/articles-3.jpg" alt="">
+							<img class="img articles-img-3" src="images/blogs/content/sensitive/articles-3.jpg" alt="">
 						</div>
 						<div class="right-side">
 							<div class="articles__text">
@@ -344,6 +365,6 @@
 
 </div>
 
-<script src="scripts/description.js"></script>
+<script src="scripts/script-mm.js"></script>
 </body>
 </html>
