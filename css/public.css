@@ -65,6 +65,7 @@ html {
 	color: #000000;
 	cursor: pointer;
 	justify-content: center;
+	text-decoration: none;
 }
 
 .btn:hover {

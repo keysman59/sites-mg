@@ -169,6 +169,7 @@
 
 .adv-use__btn {
 	margin-bottom: 24px;
+	text-decoration: none;
 }
 
 .adv-use__btn:last-child {
@@ -473,6 +474,10 @@
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	color: #000000;
+	text-decoration: none;
+}
+.question-item:hover {
+	text-decoration: underline;
 }
 
 /* REFERENCE */

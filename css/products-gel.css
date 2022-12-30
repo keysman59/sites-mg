@@ -546,6 +546,10 @@
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	color: #000000;
+	text-decoration: none;
+}
+.question-item:hover {
+	text-decoration: underline;
 }
 
 /* REFERENCE */
