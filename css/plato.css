@@ -38,6 +38,15 @@
 	margin-bottom: 42px;
 	max-width: 700px;
 }
+.hero__caption-2 {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 110px;
+	line-height: 1em;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
 .hero__caption-3 {
 	font-family: 'Playfair';
 	font-style: normal;
@@ -60,7 +69,17 @@
 	color: #FFFFFF;
 	opacity: .7;
 }
-
+.hero__description-2 {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 120%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	margin-top: 26px;
+	margin-left: 30px;
+}
 .hero__description-3 {
 	font-family: 'Geometria';
 	font-style: normal;
@@ -71,6 +90,23 @@
 	color: #000000;
 	max-width: 468px;
 	display: flex;
+}
+.hero-view-wrp-description {
+	max-width: 515px;
+	position: relative;
+}
+.hero__description-2-line {
+	width: 1px;
+	height: 100%;
+	background: #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.hero-view__img-2 {
+	max-width: 421px;
+	margin-left: 77px;
+    margin-top: 25px;
 }
 
 .hero__description-line {
