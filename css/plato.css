@@ -274,6 +274,8 @@
 
 .plato-item {
 	margin-bottom: 32px;
+	text-decoration: none;
+	display: block;
 }
 .plato-item-1 {
 	position: relative;

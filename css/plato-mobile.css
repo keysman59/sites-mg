@@ -315,6 +315,9 @@
         margin-top: 37px;
         margin-bottom: 22px;
     }
+    .hero-view-wrp-description-3 {
+        margin-top: 166px;
+    }
 }
 
 @media (max-width: 399px) { 
