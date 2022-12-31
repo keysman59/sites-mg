@@ -257,6 +257,36 @@
     .hero {
         margin-top: 22px;
     }
+    .hero-view-wrp-description-3 {
+        margin-top: 176px;
+        max-width: 100%;
+    }
+    .hero-view__img-3 {
+        margin-top: 0px;
+        position: absolute;
+        top: 156px;
+        left: 0px;
+        max-width: 250px;
+        margin-left: 0px;
+    }
+    .hero__caption-3--bot {
+        text-align: start;
+    }
+    .hero__caption-3 {
+        margin-bottom: 44px;
+    }
+    .hero-bg-3 {
+        background-position: 100% 0%;
+        background-size: 280px;
+        display: none;
+    }
+    .hero__caption-3 {
+        font-size: 40px;
+    }
+    .hero-caption-wrp {
+        max-width: 240px;
+    }
+    
 }
 
 @media (max-width: 479px) { 
