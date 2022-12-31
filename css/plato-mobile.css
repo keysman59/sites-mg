@@ -43,6 +43,26 @@
     .route {
         margin-top: 88px;
     }
+    .hero-bg-3 {
+        background-position: bottom right;
+        background-size: 47vw;
+    }
+    .hero__caption-3 {
+        font-size: 7.5vw;
+    }
+    .hero-caption-wrp {
+        max-width: 44vw;
+    }
+    .hero__description-3 {
+        font-size: 1.25vw;
+    }
+    .hero-view__img-3 {
+        margin-left: 6vw;
+        max-width: 30vw;
+    }
+    .hero-view-wrp-description-3 {
+        max-width: 26vw;
+    }
 }
 
 @media (max-width: 1100px) { 
@@ -77,6 +97,16 @@
     }
     .hero-view-wrp-description {
         max-width: 450px;
+    }
+    .hero__caption-3 {
+        margin-bottom: 30px;
+    }
+    .hero-view-wrp-description-3 {
+        margin-top: -8px;
+    }
+    .hero-bg-3 {
+        background-position: 100% 27%;
+        background-size: 42vw;
     }
 }
 
@@ -144,6 +174,22 @@
     }
     .hero-view {
         padding-right: 8px;
+    }
+    .hero-view-3 {
+        height: 100%;
+        width: calc(100% - 24px);
+    }
+    .hero__description-3 {
+        font-size: 16px;
+    }
+    .hero-view-wrp-description-3 {
+        max-width: 240px;
+    }
+    .hero-view__img-3 {
+        margin-top: 64px;
+    }
+    .hero-view-3 {
+        padding-left: 23px;
     }
 }
 
