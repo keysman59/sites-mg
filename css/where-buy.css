@@ -54,6 +54,7 @@
 	color: #686868;
 	margin-right: 60px;
 	cursor: pointer;
+	text-decoration: none;
 }
 .hero-route__link:last-child { 
 	margin-right: 0px;
@@ -81,6 +82,8 @@
     justify-content: center;
     align-items: center;
 	width: 25%;
+}
+.plato-item__wrp-img {
 	position: relative;
 }
 .plato-item img {
@@ -225,7 +228,7 @@
 }
 
 .plato-img-2 {
-	transition:opacity 3s; 
+	transition:opacity .8s; 
 	position: absolute;
 	left: 0;
 	top: 0;

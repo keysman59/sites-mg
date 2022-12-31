@@ -7,3 +7,6 @@ console.log(img2)
 img1.addEventListener('mouseover', () => {
     img2.classList.add('opacity-color-hover')
 })
+img1.addEventListener('mouseout', () => {
+    img2.classList.remove('opacity-color-hover')
+})
