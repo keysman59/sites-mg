@@ -55,6 +55,7 @@
 	line-height: 70%;
 	letter-spacing: 0.02em;
 	color: #000000;
+	margin-bottom: 40px;
 }
 
 .hero__description {
@@ -112,7 +113,8 @@
 }
 .hero-view-wrp-description-3 {
 	position: relative;
-	max-width: 450px;
+	max-width: 390px;
+	margin-top: -50px;
 }
 .hero-view__img-2 {
 	max-width: 421px;
@@ -120,14 +122,19 @@
     margin-top: 25px;
 }
 .hero-view__img-3 {
-	max-width: 421px;
+	max-width: 400px;
+	margin-left: 140px;
+	margin-top: 10px;
+}
+.hero-caption-wrp {
+    max-width: 640px;
 }
 .hero__caption-3--bot {
     text-align: end;
-    padding-right: 30px;
     line-height: 40%;
     margin-bottom: 57px;
     margin-top: -20px;
+	font-style: italic;
 }
 
 .hero__description-line {
