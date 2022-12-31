@@ -104,6 +104,8 @@
 .plato-item {
 	margin-bottom: 32px;
 	width: 100%;
+	text-decoration: none;
+	display: block;
 }
 .plato-item-1 {
 	position: relative;
