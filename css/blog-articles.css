@@ -631,6 +631,8 @@
 
 .other-item {
 	width: 23%;
+	text-decoration: none;
+	display: block;
 }
 
 .other-item__img {
