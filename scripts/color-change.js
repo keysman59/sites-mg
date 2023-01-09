@@ -1,12 +1,16 @@
-let img1 = document.querySelector('.plato-img-1'),
-    img2 = document.querySelector('.plato-img-2')
+let images1 = document.querySelectorAll('.plato-img-1'),
+    images2 = document.querySelectorAll('.plato-img-2'),
+    wrpImgages = document.querySelectorAll('.plato-item__wrp-img')
 
-console.log(img1)
-console.log(img2)
+console.log(images1)
+console.log(images2)
+console.log(wrpImgages)
 
-img1.addEventListener('mouseover', () => {
-    img2.classList.add('opacity-color-hover')
-})
-img1.addEventListener('mouseout', () => {
-    img2.classList.remove('opacity-color-hover')
+wrpImgages.forEach((el,index) => {
+    el.addEventListener('mouseover', () => {
+        images2[index].classList.add('opacity-color-hover')
+    })
+    el.addEventListener('mouseout', () => {
+        images2[index].classList.remove('opacity-color-hover')
+    })
 })
