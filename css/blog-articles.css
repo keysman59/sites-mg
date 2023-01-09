@@ -121,6 +121,9 @@
 .articles__btn {
 	max-width: 340px;
 }
+.articles__btn-1 {
+    padding: 16px 62px !important;
+}
 
 .articles__text {
 	font-family: 'Geometria';
@@ -207,6 +210,21 @@
 	padding-left: 40px;
     margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+.see-bathroom {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 90px;
+}
+.see-bathroom__text {
+	max-width: 290px;
+}
+.see-bathroom__link {
+	height: 51px;
+	box-sizing: border-box;
+	max-width: 340px;
+	padding: 16px 92px !important;
 }
 
 .articles-item {

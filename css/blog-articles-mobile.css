@@ -26,6 +26,19 @@
 	}
 }
 
+@media (max-width: 1200px) { 
+	.see-bathroom {
+		margin-top: 50px;
+		flex-direction: column;
+	}
+	.see-bathroom__text {
+		max-width: 100%;
+	}
+	.see-bathroom__link {
+		margin-top: 40px;
+	}
+}
+
 @media (max-width: 1100px) { 
 	.articles-sides--first .left-side {
 		display: none;
@@ -195,6 +208,9 @@
 	.articles__subtitle--celebrities {
 		font-size: 26px;
 	}
+	.see-bathroom__link {
+		max-width: 420px;
+	}
 }
 	
 @media (max-width: 622px) { 
@@ -257,10 +273,23 @@
 	.articles__subtitle--celebrities {
 		font-size: 24px;
 	}
+	.articles-img-2--treatment {
+		margin-top: 60px;
+	}
 
 }
 
 @media (max-width: 479px) { 
+	.see-bathroom {
+		margin-top: 0px;
+	}
+	.see-bathroom__link {
+		margin-top: 24px;
+	}
+	.articles-img-2--treatment {
+		margin-top: 20px;
+	}
+	
 	.expert {
 		align-items: center;
 	}
