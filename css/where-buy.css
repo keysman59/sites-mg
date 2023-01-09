@@ -222,6 +222,10 @@
 
 /* color hover */
 
+.plato-img {
+	max-width: 200px;
+}
+
 .plato-img-1 {
 	z-index: 1;
 	position: relative;
