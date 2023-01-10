@@ -50,18 +50,33 @@
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.2em;
-	text-transform: uppercase;
 	color: #686868;
 	margin-right: 60px;
 	cursor: pointer;
 	text-decoration: none;
+	position: relative;
+	text-transform: uppercase;
 }
+.hero-route__link--active::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: black;
+}
+
 .hero-route__link:last-child { 
 	margin-right: 0px;
 }
 .hero-route__link--active {
 	color: #000000;
-	text-decoration: underline;
+	font-weight: 600;
+}
+
+.wb-sup-r {
+	margin-bottom: 5px;
 }
 
 .hero-plato {
