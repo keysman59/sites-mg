@@ -111,6 +111,13 @@ html {
 .header-caption-link {
 	text-decoration: none;
 }
+.footer-police-link {
+	text-decoration: none;
+	color: rgba(255, 255, 255, .7);
+}
+.footer-police-link:hover {
+	text-decoration: underline;
+}
 
 @media (max-width: 767px) {
 	.btn {
