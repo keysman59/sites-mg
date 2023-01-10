@@ -89,6 +89,11 @@
 		max-width: 340px;
 	}
 }
+@media (max-width: 1310px) { 
+	.where-buy-slider-wrp {
+		max-width: 86%;
+	}
+}
 @media (max-width: 1250px) { 
 	.question-items {
 		justify-content: flex-start;
@@ -98,8 +103,14 @@
 		width: 100%;
 		margin-right: 1%;
 	}
+	.where-buy-slider-wrp {
+		max-width: 90%;
+	}
 }
 @media (max-width: 1100px) { 
+	.where-buy-slider-wrp {
+		max-width: 94%;
+	}
 	.hero {
 		height: 600px;
 	}
@@ -173,6 +184,9 @@
 }
 
 @media (max-width: 991px) { 
+	.where-buy-slider-wrp {
+		max-width: 88%;
+	}
 	.rec-content-wrp {
 		padding-top: 110px;
 		padding-bottom: 140px;
@@ -294,6 +308,9 @@
 }
 
 @media (max-width: 622px) { 
+	.where-buy-slider-wrp {
+		max-width: 100%;
+	}
 	.hero {
 		height: 452px;
 		margin-top: 0;
@@ -544,6 +561,10 @@
 }
 
 @media (max-width: 479px) { 
+	.plato-img-2 {
+		opacity: 1 !important;
+		z-index: 3 !important;
+	}
 	.hero {
 		height: 367px;
 	}
