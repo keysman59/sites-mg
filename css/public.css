@@ -108,6 +108,10 @@ html {
 	width: 100%;
 }
 
+.header-caption-link {
+	text-decoration: none;
+}
+
 @media (max-width: 767px) {
 	.btn {
 		font-size: 17px;

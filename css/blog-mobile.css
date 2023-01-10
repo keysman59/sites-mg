@@ -106,6 +106,9 @@
     .plato__title {
         font-size: 16px;
     }
+    .plato-content-wrp {
+        padding-bottom: 60px;
+    }
 }
 
 @media (max-width: 479px) { 
