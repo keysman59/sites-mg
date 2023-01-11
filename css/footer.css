@@ -42,7 +42,7 @@
 	font-family: 'Gotham';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 49px;
+	font-size: 27px;
 	line-height: 108%;
 	letter-spacing: -0.01em;
 	text-transform: uppercase;
@@ -69,7 +69,7 @@
 		margin-top: 22px;
 	}
 	.footer-undertext {
-		font-size: 3.53vw;
+		font-size: 2.53vw;
 	}
 }
 
@@ -127,7 +127,7 @@
 		margin-right: auto;
 		text-align: start;
 		/* font-size: 6.6vw; */
-		font-size: 25px;
+		font-size: 13px;
 	}
 	.footer-logo__img {
 		max-width: 42px;
@@ -149,7 +149,7 @@
 
 @media (max-width: 372px) {   
 	.footer-undertext {
-		font-size: 22px;
+		font-size: 13px;
 	}
 }
 
