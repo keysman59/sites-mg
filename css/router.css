@@ -19,6 +19,26 @@
 	display: none;
 }
 
+.route__link {
+	color: #7C7C7C !important;
+	text-decoration: none;
+}
+.route__link:hover {
+	text-decoration: underline;
+}
+.route__span--center {
+	margin-left: 12px;
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+.route__span:first-child {
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+.route__span:last-child {
+	margin-left: 12px;
+}
+
 @media (max-width: 1440px) { 
 
 }
