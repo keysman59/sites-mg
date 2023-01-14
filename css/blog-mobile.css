@@ -125,6 +125,13 @@
     .route-blog__item:first-child {
         margin-left: 0px;
     }
+    .plato {
+        min-height: 525px;
+    }
+    .plato-ls-max {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 @media (max-width: 380px) { 

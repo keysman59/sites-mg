@@ -27,8 +27,8 @@
 
 
 .route-blog__item {
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 24px;
+	margin-right: 24px;
 	font-family: 'Geometria';
 	font-style: normal;
 	font-weight: 400;
@@ -208,6 +208,7 @@
 	/* text-decoration: underline; */
 	cursor: pointer;
 }
+
 
 .plato__subtitle {
 	font-family: 'Geometria';
