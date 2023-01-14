@@ -19,6 +19,13 @@
 .route__text--mob { 
 	display: none;
 }
+.route__link {
+	color: #7C7C7C !important;
+	text-decoration: none;
+}
+.route__link:hover {
+	text-decoration: underline;
+}
 .route__span--center {
 	margin-left: 12px;
 	margin-right: 12px;
@@ -107,9 +114,6 @@ color: #7C7C7C;
 	font-size: 55px;
 	line-height: 125%;
 	color: #000000;
-	max-width: 819px;
-}
-.hero__caption {
 	max-width: 860px;
 }
 
