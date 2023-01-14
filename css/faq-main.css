@@ -267,10 +267,6 @@ color: #7C7C7C;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.question-r {
-    font-size: 13px;
-	vertical-align: 14%;
-}
 
 .question-link {
 	padding: 27px 80px 31px 25px;	

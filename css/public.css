@@ -572,3 +572,8 @@ html {
 .answer-lit__link:hover {
 	text-decoration: underline;
 }
+
+.question-r {
+    font-size: 13px;
+	vertical-align: 14%;
+}
