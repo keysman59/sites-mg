@@ -577,3 +577,27 @@ html {
     font-size: 13px;
 	vertical-align: 14%;
 }
+
+/* PRODUCTS PAGES */
+
+.products__caption-r {
+	font-size: 62%;
+    margin-left: -0.92vw;
+    vertical-align: 12%;
+}
+.products__caption-r-2 {
+	font-size: 62%;
+    vertical-align: 12%;
+}
+
+@media (max-width: 479px) { 
+	.products__caption-r {
+		font-size: 62%;
+		margin-left: -5px;
+		vertical-align: 12%;
+	}
+	.products__caption-r-2 {
+		font-size: 62%;
+		vertical-align: 12%;
+	}
+}
