@@ -484,6 +484,10 @@
 	line-height: 130%;
 	color: #000000;
 }
+.hero-desc__caption-23 {
+	font-size: 23px;
+	margin-bottom: 10px;
+}
 
 .hero-desc__text {
 	font-family: 'Geometria';

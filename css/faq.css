@@ -19,6 +19,18 @@
 .route__text--mob { 
 	display: none;
 }
+.route__span--center {
+	margin-left: 12px;
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+.route__span:first-child {
+	margin-right: 12px;
+	text-transform: uppercase;
+}
+.route__span:last-child {
+	margin-left: 12px;
+}
 
 /* hero */
 

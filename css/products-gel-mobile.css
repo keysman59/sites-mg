@@ -308,6 +308,9 @@
 }
 
 @media (max-width: 622px) { 
+	.where-buy {
+		margin-top: 0px;
+	}
 	.where-buy-slider-wrp {
 		max-width: 100%;
 	}

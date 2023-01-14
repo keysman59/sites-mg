@@ -405,6 +405,9 @@
 	max-width: 560px;
 	width: 100%;
 }
+.section-products__caption--wb {
+	max-width: 760px;
+}
 
 .application-items {
 	display: flex;
@@ -467,7 +470,7 @@
 /* WHERE BUY */
 
 .where-buy {
-
+	margin-top: 100px;
 }
 
 .where-buy-content-wrp {
