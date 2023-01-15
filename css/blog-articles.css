@@ -680,3 +680,11 @@
 	line-height: 150%;
 	color: #000000;
 }
+
+.articles__link--how {
+	color: #000000;
+	text-decoration: none;
+}
+.articles__link--how:hover {
+	text-decoration: underline;
+}
