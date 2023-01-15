@@ -31,7 +31,6 @@
 	font-weight: 400;
 	font-size: 55px;
 	line-height: 125%;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
@@ -807,3 +806,17 @@
 
 
 /* SLIDER STYLES end */
+
+
+.main-slaider__caption-r {
+	font-size: 56%;
+    vertical-align: 17%;
+}
+.main-slaider__caption-r-2 {
+	font-size: 56%;
+    vertical-align: 17%;
+}
+.main-slaider__caption-r-3 {
+	font-size: 56%;
+    vertical-align: 17%;
+}
