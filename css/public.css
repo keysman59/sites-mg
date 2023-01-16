@@ -601,3 +601,11 @@ html {
 		vertical-align: 12%;
 	}
 }
+
+.instruction-link {
+	color: #000000;
+	text-decoration: none;
+}
+.instruction-link:hover {
+	text-decoration: underline;
+}
