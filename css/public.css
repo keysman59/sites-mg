@@ -627,6 +627,10 @@ html {
     font-size: 54%;
     vertical-align: 3px;
 }
+.routermain-r {
+    font-size: 54%;
+	vertical-align: 5px;
+}
 
 @media (max-width: 622px) { 
 	.caption-r {
@@ -640,5 +644,9 @@ html {
 	.router-r {
 		font-size: 58%;
 		vertical-align: 3px;
+	}
+	.routermain-r {
+		font-size: 54%;
+		vertical-align: 5px;
 	}
 }
