@@ -631,6 +631,10 @@ html {
     font-size: 54%;
 	vertical-align: 5px;
 }
+.bath-r {
+	font-size: 52%;
+    vertical-align: 10px;
+}
 
 @media (max-width: 622px) { 
 	.caption-r {
@@ -648,5 +652,9 @@ html {
 	.routermain-r {
 		font-size: 54%;
 		vertical-align: 5px;
+	}
+	.bath-r {
+		font-size: 52%;
+		vertical-align: 6px;
 	}
 }

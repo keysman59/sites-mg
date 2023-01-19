@@ -186,8 +186,9 @@
         left: 0px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-6-wrp::before {
         content: "";
@@ -196,8 +197,9 @@
         left: 23px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-7-wrp::before {
         content: "";
@@ -206,8 +208,9 @@
         left: -6px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-8-wrp::before {
         content: "";
@@ -216,8 +219,9 @@
         right: -6px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-9-wrp::before {
         content: "";
@@ -226,8 +230,9 @@
         right: -13px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-10-wrp::before {
         content: "";
@@ -236,8 +241,9 @@
         right: -13px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-11-1-wrp {
         margin-left: 15px;
@@ -249,8 +255,9 @@
         right: -8px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-tubes-inner-11-1-wrp::before {
         content: "";
@@ -259,8 +266,9 @@
         right: 38px;
         width: 8px;
         height: 8px;
-        background: url('../images/black-plus-mobile--8.png');
+        background: url('../images/black-plus-mobile.png');
         background-repeat: no-repeat;
+        background-size: contain;
     }
     .hero-rack-5 {
         max-width: 54px;
