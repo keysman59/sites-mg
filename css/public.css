@@ -574,31 +574,31 @@ html {
 }
 
 .question-r {
-    font-size: 13px;
-	vertical-align: 14%;
+    font-size: 12px;
+	vertical-align: 16%;
 }
 
-/* PRODUCTS PAGES */
+/* all styles R */
 
 .products__caption-r {
-	font-size: 62%;
+	font-size: 47%;
     margin-left: -0.92vw;
-    vertical-align: 12%;
+	vertical-align: 18%;
 }
 .products__caption-r-2 {
-	font-size: 62%;
-    vertical-align: 12%;
+	font-size: 47%;
+	vertical-align: 18%;
 }
 
 @media (max-width: 479px) { 
 	.products__caption-r {
-		font-size: 62%;
+		font-size: 47%;
 		margin-left: -5px;
-		vertical-align: 12%;
+		vertical-align: 14%;
 	}
 	.products__caption-r-2 {
-		font-size: 62%;
-		vertical-align: 12%;
+		font-size: 47%;
+		vertical-align: 14%;
 	}
 }
 
@@ -608,4 +608,9 @@ html {
 }
 .instruction-link:hover {
 	text-decoration: underline;
+}
+
+.text-r {
+    font-size: 54%;
+    vertical-align: 5px;
 }
