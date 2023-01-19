@@ -610,7 +610,34 @@ html {
 	text-decoration: underline;
 }
 
+.caption-r {
+	font-size: 48%;
+    vertical-align: 18%;
+}
+.subtitle-r {
+	font-size: 48%;
+    vertical-align: 18%;
+}
 .text-r {
     font-size: 54%;
     vertical-align: 5px;
+}
+.router-r {
+    font-size: 54%;
+    vertical-align: 3px;
+}
+
+@media (max-width: 622px) { 
+	.caption-r {
+		font-size: 54%;
+		vertical-align: 5px;
+	}
+	.text-r {
+		font-size: 54%;
+		vertical-align: 5px;
+	}
+	.router-r {
+		font-size: 58%;
+		vertical-align: 3px;
+	}
 }
