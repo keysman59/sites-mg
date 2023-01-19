@@ -568,6 +568,7 @@ html {
 .answer-lit__link {
 	text-decoration: none;
 	color: #7C7C7C;
+	display: block;
 }
 .answer-lit__link:hover {
 	text-decoration: underline;
