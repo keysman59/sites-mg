@@ -232,7 +232,7 @@
 		max-height: 28px;
 	}
 	.hero-main-img {
-		margin-bottom: 64px;
+		margin-bottom: 34px;
 		width: 100vw;
 		margin-left: 16px;
 		margin-right: 16px;
@@ -252,7 +252,7 @@
 		font-size: 30px;
 	}
 	.articles-content-wrp {
-		padding-bottom: 79px;
+		padding-bottom: 58px;
 	}
 	.articles__subtitle--sensitive {
 		font-size: 24px;
@@ -275,6 +275,13 @@
 	}
 	.articles-img-2--treatment {
 		margin-top: 60px;
+	}
+	.img-2 {
+        height: 100%;
+    }
+	.articles-img-2--rule {
+		margin-top: 2px;
+		margin-bottom: 10px;
 	}
 
 }
