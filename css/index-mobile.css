@@ -191,6 +191,15 @@
     .hero-view-3 {
         padding-left: 23px;
     }
+    .main-slaider__caption-r--a {
+        font-size: 48%;
+        vertical-align: 28%;
+        margin-left: 0px;
+    }
+    .main-slaider__caption-r--gel {
+        font-size: 48%;
+        margin-left: -1px;
+    }
 }
 
 @media (max-width: 622px) { 

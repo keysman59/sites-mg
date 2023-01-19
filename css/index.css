@@ -809,8 +809,8 @@
 
 
 .main-slaider__caption-r {
-	font-size: 56%;
-    vertical-align: 17%;
+    font-size: 44%;
+    vertical-align: 22%;
 }
 .main-slaider__caption-r-2 {
 	font-size: 56%;
@@ -819,4 +819,14 @@
 .main-slaider__caption-r-3 {
 	font-size: 56%;
     vertical-align: 17%;
+}
+
+.main-slaider__caption-r--a {
+    font-size: 38px;
+    vertical-align: 33%;
+}
+.main-slaider__caption-r--gel {
+    vertical-align: 40%;
+    margin-left: -1px;
+    font-size: 38px;
 }

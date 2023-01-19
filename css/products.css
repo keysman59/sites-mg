@@ -46,9 +46,10 @@
 	margin-top: 60px;
 }
 .hero__name-r {
-	font-size: 48px;
+	font-size: 42px;
 	position: absolute;
 	margin-left: -3px;
+	margin-top: -3px;
 }
 .hero__name-a {
 	/* margin-left: 2%; */
