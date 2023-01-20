@@ -76,7 +76,13 @@
 }
 
 .wb-sup-r {
+	font-size: 62%;
 	margin-bottom: 5px;
+}
+.wb-sup-r-2 {
+	font-size: 62%;
+	margin-bottom: 5px;
+	margin-right: 2px;
 }
 
 .hero-plato {
