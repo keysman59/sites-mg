@@ -36,6 +36,9 @@
 	text-align: left;
 	max-width: 880px;
 }
+.hero__caption--privacy {
+	max-width: 1000px;
+}
 
 .contacts-content {
 	display: flex;
@@ -81,20 +84,11 @@
 /* ymap styles */
 
 .contacts-map {
-	height: 508px;
-	width: 100vw;
-	max-width: 815px;
-	/* background-image: url('../images/contacts-map.png'); */
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
+	width: 100%;
+	/* max-width: 815px; */
 }
 
 @media (max-width: 1440px) { 
-	.contacts-map {
-		height: 450px;
-		width: 55vw;
-		max-width: 100%;
-	}
 	.contacts-info__title {
 		font-size: 18px;
 	}
@@ -113,9 +107,6 @@
     }
 	.hero-content {
 		margin-top: 58px;
-	}
-	.contacts-map { 
-		width: 48vw;
 	}
 	.hero-content-wrp {
 		padding-bottom: 153px;
@@ -140,9 +131,6 @@
     }
 	.contacts-content {
 		flex-direction: column;
-	}
-	.contacts-map {
-		width: 100%;
 	}
 	.contacts-info {
 		margin-top: 40px;
