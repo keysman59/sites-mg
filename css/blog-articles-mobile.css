@@ -283,6 +283,22 @@
 		margin-top: 2px;
 		margin-bottom: 10px;
 	}
+	.articles-right-items--knowledge .articles-right-item {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 29px;
+	}
+	.articles-right-item__caption {
+		margin-bottom: 6px;
+		font-weight: 400;
+		font-size: 26px;
+		line-height: 150%;
+	}
+	.articles-right-item__text {
+		font-size: 16px;
+		line-height: 150%;
+		letter-spacing: 0.02em;
+	}
 
 }
 
@@ -295,6 +311,13 @@
 	}
 	.articles-img-2--treatment {
 		margin-top: 20px;
+	}
+	.articles-img-1--knowledge {
+		max-width: 146px;
+	}
+	.articles-img-1--advice {
+		margin-top: 20px;
+		margin-bottom: 12px;
 	}
 	
 	.expert {

@@ -115,6 +115,9 @@
 	max-width: 390px;
 	margin-top: -50px;
 }
+.hero-bg-3--mob-img {
+	display: none;
+}
 .hero-view__img-2 {
 	max-width: 421px;
 	margin-left: 77px;
