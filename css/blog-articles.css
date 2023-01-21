@@ -685,6 +685,7 @@
 	color: #000000;
 	text-decoration: none;
 	position: relative;
+	display: inline-block;
 }
 .articles__link--how::before {
 	position: absolute;
