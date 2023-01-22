@@ -88,6 +88,17 @@
 	/* max-width: 815px; */
 }
 
+.term-caption--r {
+	font-size: 50%;
+	vertical-align: 10px;
+	line-height: 1em;
+}
+.term-text--r {
+	font-size: 60%;
+	vertical-align: 5px;
+	line-height: 1em;
+}
+
 @media (max-width: 1440px) { 
 	.contacts-info__title {
 		font-size: 18px;
