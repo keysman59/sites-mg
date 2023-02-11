@@ -74,7 +74,6 @@ el12.addEventListener('mouseover', () => {
 })
 
 el6m.addEventListener('mouseover', () => {
-  console.log('гавели')
   desc14.classList.remove('hidden')
   setTimeout(()=> {
     desc14.classList.remove('visuallyhidden')
