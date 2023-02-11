@@ -1,3 +1,16 @@
+ErrorDocument 404 /404.html
 
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^www.xn--c1adkmbnnp.xn--p1ai$ [NC]
+	RewriteRule ^(.*)$ https://xn--c1adkmbnnp.xn--p1ai/$1 [R=301,L]
 
+	#RewriteEngine On
+	#RewriteCond %{HTTP_HOST} https://xn--c1adkmbnnp.xn--p1ai/index.html
+	#RewriteRule (.*) https://xn--c1adkmbnnp.xn--p1ai$1 [R=301,L]
 
+	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+
+	RewriteRule ^index\.html$ https://xn--c1adkmbnnp.xn--p1ai [R=301,L]
+
+</IfModule>

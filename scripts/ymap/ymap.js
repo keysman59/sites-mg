@@ -5,7 +5,7 @@ function init() {
     if (document.documentElement.clientWidth >= 600) {
 
       var myMap = new ymaps.Map('ymap-metrogil', {
-          center: [55.72067474644104,37.61281572554774],
+          center: [55.72101386410794,37.61030517790981],
           zoom: 17,
           controls: []
       }, {
@@ -13,7 +13,7 @@ function init() {
       });
     } if (document.documentElement.clientWidth < 600) {
       var myMap = new ymaps.Map('ymap-metrogil', {
-          center: [55.72067474644104,37.61281572554774],
+          center: [55.72101386410794,37.61030517790981],
           zoom: 16,
           controls: []
       }, {
@@ -28,7 +28,7 @@ function init() {
 
 
     ittensyCollection
-        .add(new ymaps.Placemark([55.72074438691877,37.612729894859264], {
+        .add(new ymaps.Placemark([55.72101386410794,37.61030517790981], {
             hintContent: 'ул. Шаболовка, 31Б',
         }))
     ;
