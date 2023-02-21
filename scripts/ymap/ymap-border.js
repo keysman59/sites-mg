@@ -1,4 +1,6 @@
 window.onload = () => {
+    console.log('страница загрузилась')
+
     if (window.innerWidth < 622) {
         function addStyleYmapBorder() {
             let ymapClass0 = document.querySelector('.ymap-ittensy')
