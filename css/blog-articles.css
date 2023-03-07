@@ -74,6 +74,10 @@
 	max-width: 819px;
 }
 
+.hero__caption-pop {
+	max-width: 875px;
+}
+
 /* animation css */
 
 .hidden {
@@ -133,6 +137,11 @@
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	color: #000000;
+}
+
+.articles__text--content {
+	text-decoration-line: underline;
+	line-height: 200%;
 }
 
 .articles__subtitle {
@@ -359,6 +368,10 @@
 .articles-img-2--naturalness {
 	width: 100%;
 	max-width: 340px;
+	margin-left: auto;
+}
+.articles-img-2--pop {
+	width: 100%;
 	margin-left: auto;
 }
 

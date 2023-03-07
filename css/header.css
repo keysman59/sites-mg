@@ -161,7 +161,6 @@
 }
 
 .nav__link:hover {
-	/* background: #000000; */
 	opacity: 0.5;
 	filter: alpha(opacity=50);
 }
@@ -172,8 +171,21 @@
 	background: #000000;
 	width: 100%;
 }
-.hero__decor-line--top {
 
+.header-phone {
+    position: absolute;
+    top: 23px;
+    right: 0;
+	letter-spacing: 0.02em;
+	font-family: 'Geometria';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 125%;
+}
+
+.header-phone--mobile {
+	display: none;
 }
 
 @media (max-width: 1440px) { 
@@ -181,7 +193,6 @@
 		font-size: 13px;
 	}
 }
-
 @media (max-width: 1100px) { 
 	.header {
 		padding-top: 30px;
@@ -194,6 +205,10 @@
 	}
 	.header__name-r {
 		margin-top: 7px;
+	}
+	.header-phone {
+		font-size: 16px;
+		top: 20px;
 	}
 }
 
@@ -290,6 +305,17 @@
 	}
 	.hero__decor-line--top {
 		display: none;
+	}
+	
+	.header-phone {
+		display: none;
+	}
+	.header-phone--mobile {
+		display: block;
+		position: absolute;
+		top: 13px;
+		right: 0;
+		max-width: 28px;
 	}
 
 }
