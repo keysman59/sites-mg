@@ -60,6 +60,10 @@
 	width: 100%;
 }
 
+.footer-spacer {
+    height: 14px;
+}
+
 @media (max-width: 1440px) { 
 	.footer-right {
 		margin-right: 60px;
@@ -118,6 +122,9 @@
 	}
 	.footer-right__text--span-2 {
 		text-decoration: underline;
+	}
+	.footer-spacer {
+		height: 12px;
 	}
 }
 
