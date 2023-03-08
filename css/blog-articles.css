@@ -731,3 +731,8 @@
 .articles__link--how:hover::before {
 	background: #000000;
 }
+
+.articles__anchor {
+	text-decoration: none;
+	color: #000000;
+}
