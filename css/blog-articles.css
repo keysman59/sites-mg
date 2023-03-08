@@ -163,6 +163,16 @@
 	color: #000000;
 	max-width: 584px;
 }
+.articles__subtitle--pop {
+	font-family: 'Playfair';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #000000;
+	max-width: 584px;
+}
 .articles__subtitle--celebrities {
 	font-family: 'Playfair';
 	font-style: italic;
@@ -370,9 +380,16 @@
 	max-width: 340px;
 	margin-left: auto;
 }
+.articles-img-1--pop {
+	width: 100%;
+	max-width: 340px;
+	margin-left: auto;
+	margin-top: 82px;
+}
 .articles-img-2--pop {
 	width: 100%;
 	margin-left: auto;
+	margin-bottom: 42px;
 }
 
 .articles-img-1--celebrities {

@@ -24,6 +24,9 @@
 	.articles__subtitle--sensitive {
 		font-size: 36px;
 	}
+	.articles__subtitle--pop {
+		font-size: 36px;
+	}
 }
 
 @media (max-width: 1200px) { 
@@ -65,6 +68,9 @@
 		padding-left: 0px;
 	}
 	.articles__subtitle--sensitive {
+		font-size: 32px;
+	}
+	.articles__subtitle--pop {
 		font-size: 32px;
 	}
 	.articles-params {
@@ -120,6 +126,9 @@
 		font-size: 40px;
 	}
 	.articles__subtitle--sensitive {
+		font-size: 30px;
+	}
+	.articles__subtitle--pop {
 		font-size: 30px;
 	}
 
@@ -202,6 +211,9 @@
 	.articles__subtitle--sensitive {
 		font-size: 26px;
 	}
+	.articles__subtitle--pop {
+		font-size: 26px;
+	}
 	.articles-img-1 {
 		margin-top: 0px;
 	}
@@ -257,6 +269,9 @@
 	.articles__subtitle--sensitive {
 		font-size: 24px;
 	}
+	.articles__subtitle--pop {
+		font-size: 24px;
+	}
 	.articles-param__caption {
 		font-size: 24px;
 		margin-bottom: 16px;
@@ -303,6 +318,9 @@
 }
 
 @media (max-width: 479px) { 
+	.articles__subtitle--pop {
+		margin-bottom: 18px;
+	}
 	.see-bathroom {
 		margin-top: 0px;
 	}
@@ -338,9 +356,21 @@
 		font-size: 26px;
 	}
 	.reference-content-wrp {
-		padding-bottom: 69px;
+		padding-bottom: 60px;
 	}
 	.articles-foto-div-2 {
 		padding-right: 0px;
+	}
+	.articles-list {
+		padding-left: 20px;
+		margin-top: 20px;
+    	margin-bottom: 20px;
+	}
+	.articles-img-1--pop {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.articles-img-2--pop {
+		margin-bottom: 18px;
 	}
 }
