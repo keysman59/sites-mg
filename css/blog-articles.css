@@ -736,3 +736,41 @@
 	text-decoration: none;
 	color: #000000;
 }
+
+/* subtypes rozacea */
+
+.subtypes__img {
+	max-width: 196px;
+	margin-right: 25px;
+}
+
+.articles__caption--subtypes {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 32px;
+}
+
+.articles-sides--subtypes {
+    display: flex;
+    justify-content: space-between;
+	margin-bottom: 55px;
+}
+
+.articles-sides--subtypes:last-child {
+	margin-bottom: 0px;
+}
+
+.left-side--subtypes {
+	width: 44.2%;
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-side--subtypes {
+	width: 54.2%;
+}
