@@ -441,6 +441,9 @@
 	display: flex;
 	justify-content: space-between;
 }
+.articles-sides--margin-bot {
+	margin-bottom: 40px;
+}
 .articles-sides--first {
 
 }

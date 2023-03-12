@@ -317,6 +317,9 @@
 		line-height: 150%;
 		letter-spacing: 0.02em;
 	}
+	.articles-sides--margin-bot {
+		margin-bottom: 18px;
+	} 
 
 }
 
