@@ -34,9 +34,7 @@
 	margin-bottom: 54px;
 	text-align: left;
 	max-width: 880px;
-}
-.hero__caption--privacy {
-	max-width: 1000px;
+	margin-bottom: 159px;
 }
 
 .map-site-content {
@@ -45,69 +43,60 @@
 	width: 100%;
 }
 
-.contacts-info {
-	display: flex;
-	flex-direction: column;
-	max-width: 451px;
-	width: 100%;
+.left-side {
+    width: 44.2%;
 }
 
-.contacts-info-block {
-	margin-bottom: 30px;
+.right-side {
+    width: 54.2%;
 }
 
-.contacts-info-block:last-child {
-	margin-bottom: 0px;
-}
-
-.contacts-info__title {
+.map-site__caption {
 	font-family: 'Geometria';
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 150%;
 	letter-spacing: 0.02em;
+	text-transform: uppercase;
 	color: #000000;
+	margin-bottom: 20px;
 }
 
-.contacts-info__text {
+.map-site__caption--first {
+	margin-bottom: 50px;
+}
+
+.map-site__link {
 	font-family: 'Geometria';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 14px;
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	color: #000000;
+	margin-bottom: 6px;
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+}
+.map-site__link:hover {
+	text-decoration: underline;
 }
 
-/* ymap styles */
-
-.contacts-map {
-	width: 100%;
-	/* max-width: 815px; */
+.map-site__link--last {
+	margin-bottom: 60px;
 }
 
-.term-caption--r {
-	font-size: 50%;
-	vertical-align: 10px;
-	line-height: 1em;
-}
-.term-text--r {
-	font-size: 60%;
-	vertical-align: 5px;
-	line-height: 1em;
+.text-r-caption {
+    font-size: 54%;
+    vertical-align: 8px;
+    line-height: 0px;
+	margin-right: -3px;
+	margin-left: 1px;
 }
 
 @media (max-width: 1440px) { 
-	.contacts-info__title {
-		font-size: 18px;
-	}
-	.contacts-info__text {
-		font-size: 18px;
-	}
-	.contacts-info {
-		max-width: 420px;
-	}
 	
 }
 @media (max-width: 1100px) { 
@@ -124,15 +113,6 @@
 }
 
 @media (max-width: 991px) { 
-	.contacts-info {
-		max-width: 38vw;
-	}
-	.contacts-info__title {
-		font-size: 17px;
-	}
-	.contacts-info__text {
-		font-size: 17px;
-	}
 }
 
 @media (max-width: 767px) {  
@@ -141,10 +121,6 @@
     }
 	.map-site-content {
 		flex-direction: column;
-	}
-	.contacts-info {
-		margin-top: 40px;
-		max-width: 100%;
 	}
 	.hero-content-wrp {
 		padding-bottom: 110px;
@@ -161,15 +137,6 @@
 	}
 	.hero-content-wrp {
 		padding-bottom: 90px;
-	}
-	.contacts-info__title {
-        font-size: 16px;
-	}
-	.contacts-info__text {
-        font-size: 16px;
-	}
-	.contacts-info-block {
-		margin-bottom: 28px;
 	}
 }
 
