@@ -894,3 +894,100 @@
 .hero__btn-1 {
     margin-right: 20px;
 }
+
+/* products part */
+
+.products {
+	margin-top: 60px;
+}
+
+.products-content {
+	width: 100%;
+}
+
+.products-sides {
+	display: flex;
+    justify-content: space-between;
+}
+
+.side-left {
+	width: 49%;
+}
+
+.side-right {
+	width: 49.5%;
+	margin-left: 1.5%;
+}
+
+.products-item {
+	display: flex;
+	position: relative;
+	padding-top: 13px;
+	padding-bottom: 23px;
+	justify-content: space-between;
+}
+
+.products-item__wrp-img {
+	max-width: 300px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+.products-item__wrp-img-1 {
+
+}
+.products-item__wrp-img-2 {
+	max-width: 250px;
+}
+
+.products-item-desc {
+	height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	max-width: 340px;
+}
+
+.products-item-decor-line {
+	width: 100%;
+	height: 1px;
+	background: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.products-item-decor-line--bot {
+	top: unset;
+	bottom: 0;
+	left: 0;
+}
+
+.products__caption {
+	font-family: 'Playfair';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-bottom: 7px;
+}
+
+.products__text {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 13px;
+    flex: 1 1 auto;
+}
+
+.products__text-1 {
+    max-width: 300px;
+}
+
+.products__text-2 {
+    max-width: 300px;
+}
