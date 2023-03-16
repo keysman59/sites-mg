@@ -61,13 +61,17 @@
 	text-transform: uppercase;
 	color: #000000;
 	margin-bottom: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
+}
+
+.map-site__caption:hover {
+	opacity: 0.5;
 }
 
 .map-site__caption--first {
 	margin-bottom: 50px;
-	text-decoration: none;
-	cursor: pointer;
-	display: block;
 }
 
 .map-site__link {
