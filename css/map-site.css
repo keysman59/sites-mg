@@ -65,6 +65,9 @@
 
 .map-site__caption--first {
 	margin-bottom: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	display: block;
 }
 
 .map-site__link {
@@ -118,12 +121,20 @@
 @media (max-width: 767px) {  
     .hero__caption {
         font-size: 35px;
+		margin-bottom: 50px;
     }
 	.map-site-content {
 		flex-direction: column;
 	}
 	.hero-content-wrp {
 		padding-bottom: 110px;
+	}
+	.map-site__link--last {
+		margin-bottom: 40px;
+	}
+	.left-side,.right-side {
+		width: 100%;
+		max-width: 450px;
 	}
 }
 
@@ -142,10 +153,19 @@
 
 @media (max-width: 479px) { 
     .hero__caption {
-        font-size: 22px;
-		margin-bottom: 20px;
+        font-size: 26px;
+		margin-bottom: 60px;
     }
 	.hero-content-wrp {
 		padding-bottom: 70px;
+	}
+	.map-site__link {
+		margin-bottom: 12px;
+	}
+	.map-site__link--last {
+		margin-bottom: 32px !important;
+	}
+	.map-site__caption {
+		font-size: 16px;
 	}
 }
