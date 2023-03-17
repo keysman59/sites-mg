@@ -971,6 +971,10 @@
 	line-height: 150%;
 	color: #000000;
 	margin-bottom: 7px;
+	text-decoration: none;
+}
+.products__caption:hover {
+	opacity: .7;
 }
 
 .products__text {
