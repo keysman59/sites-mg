@@ -634,6 +634,14 @@
 	margin-bottom: 28px;
 }
 
+.reference__link {
+	text-decoration: none;
+	color: #7C7C7C;
+}
+.reference__link:hover {
+	text-decoration: underline;
+}
+
 .reference-vertical-line {
 	height: 100%;
 	width: 1px;
