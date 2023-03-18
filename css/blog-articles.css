@@ -401,6 +401,11 @@
 	max-width: 332px;
 }
 
+.articles-img-1--advice-nut {
+	width: 100%;
+	margin-bottom: 56px;
+}
+
 .articles-param {
 	display: flex;
     flex-direction: column;
