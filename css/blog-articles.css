@@ -410,6 +410,11 @@
 	margin-top: 100px;
 	max-width: 390px;
 }
+.articles-img-1--sensitive {
+	width: 100%;
+	max-width: 390px;
+	margin-bottom: 22px;
+}
 
 .articles-param {
 	display: flex;

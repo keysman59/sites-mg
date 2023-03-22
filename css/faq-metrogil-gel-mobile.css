@@ -178,6 +178,7 @@
 		background: url('../images/faq/arrow-left-mobile.svg');
 		background-repeat: no-repeat;
 		background-position: 0% 29%;
+		text-decoration: none;
 	}
 	.hero__caption {
 		font-size: 32px;

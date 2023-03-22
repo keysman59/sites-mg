@@ -132,6 +132,12 @@
         max-width: 100%;
         width: 100%;
     }
+    .plato-item-1__top-text-1 {
+        margin-left: -50px;
+    }
+    .plato-item-1__top-text-2 {
+        margin-left: -33.5px;
+    }
 }
 
 @media (max-width: 380px) { 
