@@ -109,6 +109,13 @@
     .plato-content-wrp {
         padding-bottom: 60px;
     }
+    .plato-item--face {
+        display: flex;
+        flex-direction: column;
+    }
+    .plato-item {
+        margin-bottom: 3vw;
+    }
 }
 
 @media (max-width: 479px) { 
@@ -137,6 +144,9 @@
     }
     .plato-item-1__top-text-2 {
         margin-left: -33.5px;
+    }
+    .plato-item {
+        margin-bottom: 3.6vw;
     }
 }
 

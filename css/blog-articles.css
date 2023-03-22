@@ -341,6 +341,11 @@
 	width: 100%;
 	max-width: 460px;
 }
+.articles-img-1--travel {
+	width: 100%;
+	max-width: 460px;
+	margin-bottom: 66px;
+}
 
 .articles-img-2--tryst {
 	width: 100%;
@@ -362,13 +367,14 @@
 	margin-bottom: 66px;
 }
 
-.articles-img-1--travel {
-	width: 100%;
-	margin-bottom: 66px;
-}
 .articles-img-2--travel {
 	width: 100%;
 	margin-bottom: 66px;
+}
+.articles-img-3--travel {
+	width: 100%;
+	margin-bottom: 66px;
+	max-width: 460px;
 }
 
 .articles-img-1--naturalness {

@@ -320,6 +320,9 @@
 	.articles-sides--margin-bot {
 		margin-bottom: 18px;
 	} 
+	.articles-img-1--travel, .articles-img-2--travel, .articles-img-3--travel {
+		margin-bottom: 24px;
+	}
 
 }
 
