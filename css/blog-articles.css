@@ -107,7 +107,7 @@
 .articles-block {
 	display: flex;
 	flex-direction: column;
-	padding-top: 48px;
+	padding-top: 58px;
 }
 
 .articles-decor-line {
@@ -341,6 +341,10 @@
 	width: 100%;
 	max-width: 460px;
 }
+.articles-img-1--art {
+	width: 100%;
+	max-width: 460px;
+}
 .articles-img-1--travel {
 	width: 100%;
 	max-width: 460px;
@@ -467,6 +471,16 @@
 }
 .articles-sides--first {
 
+}
+
+.articles__sub-img {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 150%;
+	color: #000000;
+	margin-top: 24px;
 }
 
 .left-side {

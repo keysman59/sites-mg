@@ -226,6 +226,12 @@
 	.see-bathroom__link {
 		max-width: 420px;
 	}
+	.articles__sub-img {
+		font-size: 14px;
+		line-height: 150%;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
 }
 	
 @media (max-width: 622px) { 
@@ -323,6 +329,12 @@
 	.articles-img-1--travel, .articles-img-2--travel, .articles-img-3--travel {
 		margin-bottom: 24px;
 	}
+	.articles-img-1--enemy {
+		margin-top: 26px;
+	}
+	.articles-img-2--enemy {
+		margin-bottom: 24px;
+	}
 
 }
 
@@ -418,5 +430,8 @@
 	}
 	.reference-left-2 {
 		margin-bottom: 0px;
+	}
+	.articles__sub-img {
+		margin-top: 16px;
 	}
 }
