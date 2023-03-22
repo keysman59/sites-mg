@@ -493,7 +493,32 @@
 
 .reference-content {
 	display: flex;
-	justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 100%;
+}
+.reference__caption {
+	font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #0C0B0B;
+    margin-bottom: 28px;
+}
+.reference-vertical-line {
+    height: 100%;
+    width: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.reference-sides {
+    display: flex;
+    justify-content: space-between;
 }
 
 .reference__text {
@@ -515,8 +540,21 @@
 }
 
 .reference-left {
-	width: 45%;
-	margin-right: 2%;
+	width: 47%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.reference__link {
+	text-decoration: none;
+	font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 190%;
+    color: #7C7C7C;
+}
+.reference__link:hover {
+	text-decoration: underline;
 }
 
 .reference-right {

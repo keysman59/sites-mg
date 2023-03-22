@@ -24,12 +24,10 @@ let box = document.querySelector('.apoint'),
     close = document.querySelector('.apoint__btn')
 
 open.addEventListener('click', () => {
-    console.log('open')
   box.style.height = `${ box.scrollHeight }px`
 })
 
 close.addEventListener('click', () => {
-    console.log('open')
   box.style.height = `${ box.scrollHeight }px`
   window.getComputedStyle(box, null).getPropertyValue('height')
   box.style.height = '0'

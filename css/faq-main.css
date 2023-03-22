@@ -502,11 +502,8 @@ color: #7C7C7C;
 		border-right: 0px;
 		border-left: 0px;
 		margin-bottom: -2px;
+		padding-left: 34px;
 	}
-	/* .question-item:last-child {
-		border-bottom: 1px solid black;
-	} */
-
 }
 
 @media (max-width: 367px) { 

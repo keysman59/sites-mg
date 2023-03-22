@@ -253,6 +253,15 @@
 	.reference-content-wrp {
 		padding-bottom: 90px;
 	}
+	.reference-sides {
+		flex-direction: column;
+		padding-right: 20px;
+	}
+	.reference-right {
+		width: 100%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 }
 
 @media (max-width: 622px) { 
@@ -449,6 +458,18 @@
 	}
 	.reference-right {
 		width: 100%;
+	}
+	.reference-content {
+		padding-left: 0px;
+	}
+	.reference__text {
+		line-height: 130%;
+	}
+	.reference-left {
+		margin-bottom: 0px;
+	}
+	.reference__link {
+		line-height: 130%;
 	}
 }
 

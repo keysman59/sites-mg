@@ -239,6 +239,16 @@
 	.plato-item img {
 		width: 66%;
 	}
+	.hero-route {
+		flex-direction: row;
+		margin-right: 20px;
+	}
+	/* .hero-route__link--active {
+		margin-right: 20px;
+	} */
+	.hero-route__link {
+		margin-bottom: 0px;
+	}
 }
 
 /* color hover */
