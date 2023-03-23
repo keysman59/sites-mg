@@ -77,6 +77,13 @@
 	letter-spacing: 0.02em;
 	color: #000000;
 }
+.contacts-info__link {
+	text-decoration: none;
+	display: block;
+}
+.contacts-info__link:hover { 
+	text-decoration: underline;
+}
 
 /* ymap styles */
 
