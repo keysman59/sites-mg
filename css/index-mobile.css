@@ -199,6 +199,7 @@
 @media (max-width: 767px) { 
     .plato-item-1__top-text {
         font-size: 11px;
+        margin-left: -50px;
     }
     .plato-item-2__top-text {
         font-size: 11px;
