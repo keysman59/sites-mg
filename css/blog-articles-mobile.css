@@ -335,6 +335,17 @@
 	.articles-img-2--enemy {
 		margin-bottom: 24px;
 	}
+	.articles-img-1--proper {
+		max-width: 440px;
+		margin-top: 6px;
+		margin-bottom: 22px;
+	}
+
+	.articles-img-2--proper {
+		max-width: 470px;
+		margin-top: 22px;
+		margin-bottom: 22px;
+	}
 
 }
 
