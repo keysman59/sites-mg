@@ -436,6 +436,23 @@
 	margin-top: 36px;
 	margin-bottom: 36px;
 }
+.articles-img-1--winter-care {
+	width: 100%;
+	max-width: 760px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+.articles-img-2--winter-care {
+	width: 100%;
+	max-width: 440px;
+	margin-top: 86px;
+}
+.articles-img-3--winter-care {
+	width: 100%;
+	max-width: 760px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
 
 .articles-param {
 	display: flex;
